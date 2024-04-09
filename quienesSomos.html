@@ -67,7 +67,7 @@
         <main>
             <div class="tab-content" id="pills-tabContent">
                 <div class="tab-pane fade show active" id="nuestraVision" role="tabpanel" aria-labelledby="pills-vision-tab">
-                    <div class="imgFondoRojo pt-4">
+                    <div class="imgFondoRojo vh-100 pt-4">
                         <div class="container bg-white rounded-lg contenido" style="border: 0.125em solid #b59a47">
                             <div class="row m-2 d-flex flex-column">
                                 <h2 class="mb-0 pt-4 font-weight-bold" style="color: #003f6f"><i class="bi bi-globe2 mr-2" style="color: #003958;"></i>Nuestra visión</h2>
@@ -89,7 +89,7 @@
                     </div>
                 </div>
                 <div class="tab-pane fade" id="nuestraMision" role="tabpanel" aria-labelledby="pills-mision-tab">
-                    <div class="imgFondoMagenta pt-4">
+                    <div class="imgFondoMagenta vh-100 pt-4">
                         <div class="container bg-white rounded-lg contenido" style="border: 0.125em solid #b59a47">
                             <div class="row m-2 d-flex flex-column">
                                 <h2 class="mb-0 pt-4 font-weight-bold" style="color: #003f6f"><i class="bi bi-flag-fill mr-2" style="color: #003958;"></i>Nuestra misión</h2>
@@ -111,7 +111,7 @@
                     </div>
                 </div>
                 <div class="tab-pane fade" id="nuestroPerfil" role="tabpanel" aria-labelledby="pills-perfil-tab">
-                    <div class="imgFondoMorado pt-4">
+                    <div class="imgFondoMorado vh-100 pt-4">
                         <div class="container bg-white rounded-lg contenido" style="border: 0.125em solid #b59a47">
                             <div class="row m-2 d-flex flex-column mb-3">
                                 <h2 class="mb-0 pt-4 font-weight-bold" style="color: #003f6f"><i class="bi bi-person-lines-fill mr-2" style="color: #003958;"></i>Nuestro perfil</h2>
@@ -133,7 +133,7 @@
                     </div>
                 </div>
                 <div class="tab-pane fade" id="nuestraEstrategia" role="tabpanel" aria-labelledby="pills-estrategia-tab">
-                    <div class="imgFondoCafe pt-4">
+                    <div class="imgFondoCafe vh-100 pt-4">
                         <div class="container bg-white rounded-lg contenido" style="border: 0.125em solid #b59a47">
                             <div class="row m-2 d-flex flex-column">
                                 <h2 class="mb-0 pt-4 font-weight-bold" style="color: #003f6f"><i class="bi bi-list-check mr-2" style="color: #003958;"></i>Nuestra estrategia</h2>
@@ -155,7 +155,7 @@
                     </div>
                 </div>
                 <div class="tab-pane fade" id="nuestraVivenciaReino" role="tabpanel" aria-labelledby="pills-vivencia-tab">
-                    <div class="imgFondoAzul pt-4">
+                    <div class="imgFondoAzul vh-100 pt-4">
                         <div class="container bg-white rounded-lg contenido" style="border: 0.125em solid #b59a47">
                             <div class="row m-2 d-flex flex-column">
                                 <h2 class="mb-0 pt-4 font-weight-bold" style="color: #003f6f"><i class="bi bi-cloud-sun-fill mr-2" style="color: #003958;"></i>Nuestra vivencia del reino</h2>
@@ -177,7 +177,7 @@
                     </div>
                 </div>
                 <div class="tab-pane fade" id="nuestrosValores" role="tabpanel" aria-labelledby="pills-valores-tab">
-                    <div class="imgFondoVerde pt-4">
+                    <div class="imgFondoVerde vh-100 pt-4">
                         <div class="container bg-white rounded-lg contenido" style="border: 0.125em solid #b59a47">
                             <div class="row m-2 d-flex flex-column">
                                 <h2 class="mb-0 pt-4 font-weight-bold" style="color: #003f6f"><i class="bi bi-award-fill mr-2" style="color: #003958;"></i>Nuestros valores</h2>
