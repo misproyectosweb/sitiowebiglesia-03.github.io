@@ -1,0 +1,209 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 26/01/2024, 04:51:18 PM
+    Author     : pcgc7
+*/
+
+:root {
+    --colorAzul: #003958;
+    --colorDorado: #b59a47;
+    --colorBlanco: #fff;
+    --colorWhitesmoke: #f5f5f5;
+    --colorAlabaster: #f2f0e6;
+    --colorSilver: #ccc;
+    --colorRojo: #cc0000;
+}
+
+/* Encabezado */
+.encabezado { background: linear-gradient(to right, var(--colorWhitesmoke) 0%, var(--colorDorado) 100%); }
+.encabezado .img-fluid { max-width: 85%; }
+
+/* Imagen de fondo */
+.fondo { background-image: url('../imagenes/fondo_1.jpg'); }
+.colorFondo { background: rgba(0,0,0,0.3); }
+
+/* Sección principal */
+.titulos { font-family: 'Bree Serif', serif; }
+main .my-5 { margin-top: 3em!important; margin-bottom: 3em!important; }
+main .py-5 { padding-top: 3em!important; padding-bottom: 3em!important; }
+main .display-3 { font-size: 4.5em!important; }    
+.txtVision p, .txtVersiculo p { font-family: 'Noto Serif', serif; font-size: 2.75em; line-height: 1.75em; }
+.bordes { border-top: 0.5em double var(--colorAzul); border-bottom: 0.5em double var(--colorAzul); }
+
+/* Imagenes movibles */
+.parallax-seccion-1 { background-image: url('../imagenes/fondoParallax_1.jpg'); background-attachment: fixed; }
+.parallax-seccion-2 { background-image: url('../imagenes/fondoParallax_2.jpg'); background-attachment: fixed; }
+.fondo, .parallax-seccion-1, .parallax-seccion-2 { background-size: cover; background-position: center; background-repeat: no-repeat; }
+
+/* Carrusel de imágenes */
+.carousel-control-next, .carousel-control-prev { top: -7em !important; }
+.flechaPrev, .flechaSig { font-size: 4em; }
+
+/* Efecto de onda */
+.wave { max-width: 100%; position: relative; top: -7em; }
+
+/* Pie de página */
+.col-sm-4 h4 { font-size: 1em !important; }
+.col-sm-4 .txtInfo, .barraInfo { font-size: 0.75em; }
+
+/* Preloader */
+.contenedorLoader { background: var(--colorAlabaster); position: fixed; top: 0; left: 0; height: 100%; width: 100%; z-index: 100; transition: all 1.5s; }
+
+/********************* Media queries *********************/
+
+/* Estilo para dispositivos con tamaño de pantalla mayor a 1424px y menor que 1648px */
+@media screen and (min-width: 1424px) and (max-width: 1647.98px) {
+    
+    /* Encabezado */
+    .encabezado .img-fluid { max-width: 80%; }
+    .encabezado .py-5 { padding-top: 2.5rem!important; padding-bottom: 2.5rem!important; }
+    
+    /* Sección principal */
+    main .vh-100 { height: 100vh!important; } 
+    main .my-5 { margin-top: 2.5em!important; margin-bottom: 2.5em!important; }
+    main .py-5 { padding-top: 2.5em!important; padding-bottom: 2.5em!important; }
+    main .display-3 { font-size: 4em!important; }
+    .txtVision p, .txtVersiculo p { font-size: 2.5em; }   
+}
+
+/* Estilo para dispositivos con tamaño de pantalla mayor a 1200px y menor que 1424px */
+@media screen and (min-width: 1200px) and (max-width: 1423.98px) {
+    
+    /* Encabezado */
+    .encabezado .img-fluid { max-width: 80%; }
+    .encabezado .py-5 { padding-top: 2.25em!important; padding-bottom: 2.25em!important; }
+    
+    /* Sección principal */
+    main .vh-100 { height: 100vh!important; } 
+    main .my-5 { margin-top: 2em!important; margin-bottom: 2em!important; }
+    main .py-5 { padding-top: 2em!important; padding-bottom: 2em!important; }
+    main .display-3 { font-size: 3.5em!important; }
+    .txtVision p, .txtVersiculo p { font-size: 2em; }    
+}
+
+/* Estilo para dispositivos con tamaño de pantalla mayor a 992px y menor que 1200px */
+@media screen and (min-width: 992px) and (max-width: 1199.98px) {
+    
+    /* Encabezado */    
+    .encabezado .img-fluid { max-width: 75%; }
+    .encabezado .py-5 { padding-top: 2em!important; padding-bottom: 2em!important; }
+    
+    /* Sección principal */      
+    main .vh-100 { height: 80vh!important; } 
+    main .my-5 { margin-top: 1.5em!important; margin-bottom: 1.5em!important; }
+    main .py-5 { padding-top: 1.5em!important; padding-bottom: 1.5em!important; }
+    main .display-3 { font-size: 3em!important; }
+    .txtVision p, .txtVersiculo p { font-size: 1.5em; }
+    
+    /* Menú de opciones */
+    .card { margin-bottom: 1.5em !important; font-size: 80%; }    
+    
+    /* Carrusel de imágenes */
+    .carousel-control-next, .carousel-control-prev { top: -3em !important; }
+    .flechaPrev, .flechaSig { font-size: 3em; }  
+    
+    /* Efecto de onda */
+    .wave { top: -6.5em; }   
+    
+    /* Pie de página */
+    .list-group-item { padding-left: 1em!important; padding-right: 1em!important; }
+}
+
+/* Estilo para dispositivos con tamaño de pantalla mayor a 768px y menor que 992px */
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+    
+    /* Encabezado */
+    .encabezado .img-fluid { max-width: 70%; }
+    .encabezado .py-5 { padding-top: 1.75em!important; padding-bottom: 1.75em!important; }
+    
+    /* Sección principal */    
+    main .vh-100 { height: 65vh!important; }
+    main .my-5 { margin-top: 1em!important; margin-bottom: 1em!important; }
+    main .py-5 { padding-top: 1em!important; padding-bottom: 1em!important; }
+    main .display-3 { font-size: 2.75em!important; }
+    .txtVision p, .txtVersiculo p { font-size: 1.25em; }
+    
+    /* Menú de opciones */
+    .card { margin-bottom: 1em !important; font-size: 70%; }    
+    
+    /* Carrusel de imágenes */
+    .carousel-control-next, .carousel-control-prev { top: -3em !important; }
+    .flechaPrev, .flechaSig { font-size: 3em; }
+    
+    /* Efecto de onda */
+    .wave { top: -6em; }
+    
+    /* Preloader */
+    .contenedorLoader img { width: 20%; }
+}
+
+/* Estilo para dispositivos con tamaño de pantalla mayor a 576px y menor que 768px */
+@media screen and (min-width: 576px) and (max-width: 767.98px) {  
+    
+    /* Encabezado */
+    .encabezado .img-fluid { max-width: 65%; }
+    .encabezado .py-5 { padding-top: 1.5em!important; padding-bottom: 1.5em!important; }
+    
+    /* Sección principal */
+    main .vh-100 { height: 57vh!important; }
+    main .my-5 { margin-top: 0.75em!important; margin-bottom: 0.75em!important; }
+    main .py-5 { padding-top: 0.75em!important; padding-bottom: 0.75em!important; }
+    main .display-3 { font-size: 2.5em!important; }
+    .txtVision p, .txtVersiculo p { font-size: 1.25em; }
+    
+    /* Menú de opciones */
+    .card { margin-bottom: 0.75em!important; font-size: 70%; }    
+    
+    /* Carrusel de imágenes */
+    .carousel-control-next, .carousel-control-prev { top: -3em !important; }
+    .flechaPrev, .flechaSig { font-size: 2em; }
+    
+    /* Efecto de onda */
+    .wave { top: -5em; }
+    
+    /* Pie de página */
+    .col-sm-4 { width: 33%!important; padding-right: 0!important; }
+    .col-sm-4 h4 { font-size: 0.75em !important; }
+    .col-sm-4 .txtInfo, .barraInfo { font-size: 0.55em !important; }
+    
+    /* Preloader */
+    .contenedorLoader img { width: 20%; }    
+}
+
+/* Estilo para dispositivos con tamaño de pantalla menor que 576px */
+@media screen and (max-width: 575.98px) {
+    
+    /* Encabezado */
+    .encabezado .img-fluid { max-width: 55%; }
+    .encabezado .py-5 { padding-top: 1.5em!important; padding-bottom: 1.5em!important; }
+
+    /* Sección principal */
+    main .vh-100 { height: 50vh!important; }
+    main .display-3 { font-size: 2.25em!important; }
+    main .my-5 { margin-top: 0.5em!important; margin-bottom: 0.5em!important; }
+    main .py-5 { padding-top: 0.5em!important; padding-bottom: 0.5em!important; }
+    .txtVision p, .txtVersiculo p { font-size: 1em; }
+    
+    /* Menú de opciones */
+    .card { margin-bottom: 0.5em !important; font-size: 70%; }    
+    
+    /* Carrusel de imágenes */
+    .carousel-control-next, .carousel-control-prev { top: -2em !important; }
+    .flechaPrev, .flechaSig { font-size: 2em; }
+    
+    /* Efecto de onda */
+    .wave { top: -5em; }
+    
+    /* Pie de página */
+    .col-4 { width: 33%!important; padding-right: 0!important; }
+    .col-4 h4 { font-size: 0.75em !important; }
+    .col-4 .txtInfo, .barraInfo { font-size: 0.55em !important; }
+    .list-group-item { padding-left: 1em!important; padding-right: 1em!important; }
+    
+    /* Preloader */
+    .contenedorLoader img { width: 20%; }
+}

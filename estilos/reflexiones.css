@@ -1,0 +1,317 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 26/01/2024, 05:48:30 PM
+    Author     : pcgc7
+*/
+
+:root {
+    --colorAzul: #003f6f;
+    --colorDorado: #b59a47;
+    --colorBlanco: #fff;
+    --colorWhitesmoke: #f5f5f5;
+    --colorAlabaster: #f2f0e6;
+    --colorSilver: #ccc;
+    --colorRojo: #cc0000;
+}
+
+/* Encabezado */
+.encabezado { z-index: 50; background: linear-gradient(to right, var(--colorWhitesmoke) 0%, var(--colorDorado) 100%); box-shadow: 0 0.625em 0.625em 0 rgba(0,0,0,0.5); }
+header a .img-fluid { max-width: 85%; }
+li.nav-item.mx-5 { margin-left: 2em!important; margin-right: 2em!important; }
+li.nav-item.px-1 { padding-left: 0.25em!important; padding-right: 0.25em!important; }
+
+/* Menú */
+.menu ul li { font-size: 1.25em; }
+.menu ul { justify-content: space-around; }
+ul#pills-tab.nav.nav-pills.py-3 { padding-top: 1em!important; padding-bottom: 1em!important; }
+
+/* Botón del menú */
+div.btnMenu i { font-size: 2em; }
+div.btnMenu.mr-5 { margin-right: 3em!important; }
+div.btnMenu.pb-3 { padding-bottom: 1em!important; }
+
+/* Sección del artículo */
+.contenido { max-width: 80%!important; }
+
+/* Cuerpo del documento  */
+.imgFondoAzul { background-image: url('../imagenes/fondoAzul.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center; }
+p { font-size: 100%; }
+h2 { font-size: 2em!important; }
+h2.mb-0.pt-4.font-weight-bold { padding-top: 1em!important; }
+h3 { font-size: 1.75em!important; }
+hr { width: 100%; border-top: 0.125em solid rgba(181,154,71,0.9)!important; } 
+.blockquote { font-size: 1.25em!important; }
+.blockquote-footer { font-size: 80%!important; }
+ul.lista { font-size: 95%; }
+.textoGrande { background: var(--colorWhitesmoke); width: 11.5em; height: 11em; font-size: 2em; font-weight: 700; border-right: 0.3125em solid var(--colorDorado); }
+.btnContenedor { position: fixed; bottom: 3em; right: 4.5em; width: 4em; height: 4em; z-index: -1; }
+
+/* Botón volver hacia arriba */
+.btnArriba { width: 0em; height: 0em; background: var(--colorAzul); border-radius: 50%; cursor: pointer; transition: .2s; top: 50%; left: 50%; transform: translate(0%, 0%); z-index: -1; }
+.btnArriba i { position: absolute; font-size: 2em; top: 10%; left: 27%; color: var(--colorDorado); transition: .2s; }
+div.btnContenedor.mostrarBoton { bottom: 3em; right: 3em; }
+.mostrarBoton { z-index: 10; }
+.mostrarBoton .btnArriba { animation: popup .3s ease-in-out; width: 4em; height: 4em; z-index: 11; }
+.mostrarBoton { transform: translate(0%, 25%) scale(1); }
+
+@keyframes popup {
+    50%{
+        width: 2em;
+        height: 2em;
+    }
+    100%{
+        width: 4em;
+        height: 4em;
+    }
+}
+
+/********************* Media queries *********************/
+
+/* Dispositivos con orientación horizontal con una resolución de pantalla mayor a 1424px y menor que 1648px */
+@media screen and (min-width: 1424px) and (max-width: 1647.98px) {
+    
+    /* Encabezado */
+    header a .img-fluid { max-width: 80%; }
+    header .py-5 { padding-top: 2.25em!important; padding-bottom: 2.25em!important; }
+    li.nav-item.mx-5 { margin-left: 1.75em!important; margin-right: 1.75em!important; }
+    li.nav-item.px-1 { padding-left: 0.25em!important; padding-right: 0.25em!important; }
+    
+    /* Menú */
+    .menu ul li { font-size: 90%; }
+    .menu ul { justify-content: space-around; }
+    ul#pills-tab.nav.nav-pills.py-3 { padding-top: 0.75em!important; padding-bottom: 0.75em!important; }
+            
+    /* Botón del menú */
+    div.btnMenu i { font-size: 2em; }
+    div.btnMenu.mr-5 { margin-right: 2.5em!important; }
+    div.btnMenu.pb-3 { padding-bottom: 0.75em!important; }
+    
+    /* Sección del artículo */
+    .contenido { max-width: 85%!important; }
+    
+    /* Cuerpo del documento  */
+    hr { width: 100%; border-top: 0.125em solid rgba(181,154,71,0.9)!important; } 
+    .blockquote.p-5 { padding: 2.5em!important; }
+    .blockquote.m-5 { margin: 2.5em!important; }
+    .textoGrande { width: 10em; height: 8em; padding: 1em!important; margin-right: 1em!important; }
+    .textoGrande p { font-size: 82%; }    
+    
+    /* Botón volver hacia arriba */
+    div.btnContenedor.mostrarBoton { bottom: 2em; right: 1.5em; }    
+}
+
+/* Estilo para dispositivos con tamaño de pantalla mayor a 1200px y menor que 1424px */
+@media screen and (min-width: 1200px) and (max-width: 1423.98px) {
+    
+    /* Encabezado */
+    header a .img-fluid { max-width: 80%; }
+    header .py-5 { padding-top: 2.25em!important; padding-bottom: 2.25em!important; }
+    li.nav-item.mx-5 { margin-left: 1.5em!important; margin-right: 1.5em!important; }
+    li.nav-item.px-1 { padding-left: 0.25em!important; padding-right: 0.25em!important; }
+    
+    /* Menú */
+    .menu ul li { font-size: 90%; }
+    .menu ul { justify-content: space-around; }
+    ul#pills-tab.nav.nav-pills.py-3 { padding-top: 0.75em!important; padding-bottom: 0.75em!important; }
+            
+    /* Botón del menú */
+    div.btnMenu i { font-size: 2em; }
+    div.btnMenu.mr-5 { margin-right: 2.5em!important; }
+    div.btnMenu.pb-3 { padding-bottom: 0.75em!important; }
+    
+    /* Sección del artículo */
+    .contenido { max-width: 85%!important; }
+            
+    /* Cuerpo del documento */
+    p { font-size: 95%; }
+    h2 { font-size: 2em!important; }
+    h2.mb-0.pt-4.font-weight-bold { padding-top: 0.75em!important; }
+    h3 { font-size: 1.75em!important; }
+    hr { width: 100%; border-top: 0.125em solid rgba(181,154,71,0.9)!important; } 
+    .blockquote { font-size: 1.25em!important; }
+    .blockquote.p-5 { padding: 2.5em!important; }
+    .blockquote.m-5 { margin: 2.5em!important; }
+    .blockquote-footer { font-size: 80%!important; }
+    ul.lista { font-size: 95%; }
+    .textoGrande { width: 8em; height: 7em; padding: 1em!important; margin-right: 1em!important; }
+    .textoGrande p { font-size: 65%; }
+    p.ultimop { margin-right: 3em!important; }
+    
+    /* Botón volver hacia arriba */
+    div.btnContenedor.mostrarBoton { bottom: 2em; right: 1em; }
+}
+
+/* Estilo para dispositivos con tamaño de pantalla mayor a 992px y menor que 1200px */
+@media screen and (min-width: 992px) and (max-width: 1199.98px) {
+    
+    /* Encabezado */
+    header a .img-fluid { max-width: 75%; }
+    header .py-5 { padding-top: 2em!important; padding-bottom: 2em!important; }
+    li.nav-item.mx-5 { margin-left: 1.5em!important; margin-right: 1.5em!important; }
+    li.nav-item.px-1 { padding-left: 0.25em!important; padding-right: 0.25em!important; }
+    
+    /* Menú */
+    .menu ul li { font-size: 90%; }
+    .menu ul { justify-content: space-around; }
+    ul#pills-tab.nav.nav-pills.py-3 { padding-top: 0.5em!important; padding-bottom: 0.5em!important; }
+    
+    /* Botón del menú */
+    div.btnMenu i { font-size: 2em; }
+    div.btnMenu.mr-5 { margin-right: 2em!important; }
+    div.btnMenu.pb-3 { padding-bottom: 0.5em!important; }
+    
+    /* Sección del artículo */
+    .contenido { max-width: 85%!important; }
+    
+    /* Cuerpo del documento */
+    p { font-size: 90%; }
+    h2 { font-size: 2em!important; }
+    h2.mb-0.pt-4.font-weight-bold { padding-top: 0.75em!important; }
+    h3 { font-size: 1.5em!important; }
+    hr { width: 100%; border-top: 0.125em solid rgba(181,154,71,0.9)!important; } 
+    .blockquote { font-size: 1.25em!important; }
+    .blockquote.p-5 { padding: 2em!important; }
+    .blockquote.m-5 { margin: 2em!important; }
+    .blockquote-footer { font-size: 70%!important; }
+    ul.lista { font-size: 90%; }
+    .textoGrande { width: 8em; height: 7em; padding: 0.75em!important; margin-right: 0.75em!important; }
+    .textoGrande p { font-size: 65%; }
+    h6 { font-size: 1em!important; }
+    p.ultimop { margin-right: 3em!important; }
+    
+    /* Botón volver hacia arriba */
+    div.btnContenedor.mostrarBoton { bottom: 1.75em; right: 1em; }
+}
+
+/* Estilo para dispositivos con tamaño de pantalla mayor a 768px y menor que 992px */
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+    
+    /* Encabezado */
+    header a .img-fluid { max-width: 70%; }
+    header .py-5 { padding-top: 1.75em!important; padding-bottom: 1.75em!important; }
+    li.nav-item.mx-5 { margin-left: 0.75em!important; margin-right: 0.75em!important; }
+    li.nav-item.px-1 { padding-left: 0!important; padding-right: 0!important; }
+    
+    /* Menú */
+    .menu ul li { font-size: 80%; }
+    .menu ul { justify-content: space-around; }
+    ul#pills-tab.nav.nav-pills.py-3 { padding-top: 0.5em!important; padding-bottom: 0.5em!important; }
+    
+    /* Botón del menú */
+    div.btnMenu i { font-size: 2em; }
+    div.btnMenu.mr-5 { margin-right: 2em!important; }
+    div.btnMenu.pb-3 { padding-bottom: 0.5em!important; }
+    
+    /* Sección del artículo */
+    .contenido { max-width: 90%!important; }
+    
+    /* Cuerpo del documento  */
+    p { font-size: 80%; }
+    h2 { font-size: 1.75em!important; }
+    h2.mb-0.pt-4.font-weight-bold { padding-top: 0.75em!important; }
+    h3 { font-size: 1.25em!important; }
+    hr { width: 100%; border-top: 0.125em solid rgba(181,154,71,0.9)!important; } 
+    .blockquote { font-size: 1em!important; }
+    .blockquote.p-5 { padding: 1.5em!important; }
+    .blockquote.m-5 { margin: 1.5em!important; }
+    .blockquote-footer { font-size: 60%!important; }
+    ul.lista { font-size: 80%; }
+    .textoGrande { width: 6em; height: 5em; padding: 0.75em!important; margin-right: 0.75em!important; }
+    .textoGrande p { font-size: 45%; }
+    h6 { font-size: 1em!important; }
+    h6.my-3 { margin-top: 1em!important; margin-bottom: 1em!important; }
+    p.ultimop { margin-right: 3em!important; }
+    
+    /* Botón volver hacia arriba */
+    div.btnContenedor.mostrarBoton { bottom: 1.75em; right: 1em; }
+}
+
+/* Estilo para dispositivos con tamaño de pantalla mayor a 576px y menor que 768px */
+@media screen and (min-width: 576px) and (max-width: 767.98px) {
+    
+    /* Encabezado */
+    header a .img-fluid { max-width: 65%; }
+    header .py-5 { padding-top: 1.5em!important; padding-bottom: 1.5em!important; }
+    li.nav-item.mx-5 { margin-left: 0.75em!important; margin-right: 0.75em!important; }
+    li.nav-item.px-1 { padding-left: 0!important; padding-right: 0!important; }
+    
+    /* Menú */
+    .menu ul li { font-size: 70%; }
+    .menu ul { justify-content: space-around; }
+    ul#pills-tab.nav.nav-pills.py-3 { padding-top: 0.25em!important; padding-bottom: 0.25em!important; }
+    
+    /* Botón del menú */
+    div.btnMenu i { font-size: 1.5em; }
+    div.btnMenu.mr-5 { margin-right: 1.5em!important; }
+    div.btnMenu.pb-3 { padding-bottom: 0!important; }
+    
+    /* Sección del artículo */
+    .contenido { max-width: 90%!important; }
+    
+    /* Cuerpo del documento  */
+    p { font-size: 70%; }
+    h2 { font-size: 1.5em!important; }
+    h2.mb-0.pt-4.font-weight-bold { padding-top: 0.75em!important; }    
+    h3 { font-size: 1em!important; }
+    hr { width: 100%; border-top: 0.125em solid rgba(181,154,71,0.9)!important; } 
+    .blockquote { font-size: 1em!important; }
+    .blockquote.p-5 { padding: 1em!important; }
+    .blockquote.m-5 { margin: 1em!important; }
+    .blockquote-footer { font-size: 60%!important; }
+    ul.lista { font-size: 70%; }
+    .textoGrande { width: 6em; height: 5em; padding: 0.75em!important; margin-right: 0.75em!important; }
+    .textoGrande p { font-size: 45%; }
+    h6 { font-size: 0.75em!important; }
+    h6.my-3 { margin-top: 1em!important; margin-bottom: 1em!important; }
+    p.ultimop { margin-right: 3em!important; }
+    
+    /* Botón volver hacia arriba */
+    div.btnContenedor.mostrarBoton { bottom: 1.75em; right: 0.5em; }
+}
+
+/* Estilo para dispositivos con tamaño de pantalla menor que 576px */
+@media screen and (max-width: 575.98px) {
+    
+    /* Encabezado */
+    header a .img-fluid { max-width: 55%; }
+    header .py-5 { padding-top: 1.5em!important; padding-bottom: 1.5em!important; }
+    li.nav-item.mx-5 { margin-left: 0!important; margin-right: 0!important; }
+    li.nav-item.px-1 { padding-left: 0!important; padding-right: 0!important; }
+    
+    /* Menú */
+    .menu ul li { font-size: 70%; }
+    .menu ul { justify-content: space-around; }
+    ul#pills-tab.nav.nav-pills.py-3 { padding-top: 0.25em!important; padding-bottom: 0.25em!important; }
+    
+    /* Botón del menú */
+    div.btnMenu i { font-size: 1.5em; }
+    div.btnMenu.mr-5 { margin-right: 1.5em!important; }
+    div.btnMenu.pb-3 { padding-bottom: 0!important; }
+    
+    /* Sección del artículo */
+    .contenido { max-width: 90%!important; }
+    
+    /* Cuerpo del documento  */    
+    p { font-size: 60%; }
+    h2 { font-size: 1.25em!important; }
+    h2.mb-0.pt-4.font-weight-bold { padding-top: 0.75em!important; }
+    h3 { font-size: 1em!important; }  
+    hr { width: 100%; border-top: 0.125em solid rgba(181,154,71,0.9)!important; } 
+    .blockquote { font-size: 1em!important; }
+    .blockquote.p-5 { padding: 1em!important; }
+    .blockquote.m-5 { margin: 1em!important; }
+    .blockquote-footer { font-size: 60%!important; }
+    ul.lista { font-size: 60%; }
+    .textoGrande { width: 6em; height: 5em; padding: 0.75em!important; margin-right: 0.75em!important; }
+    .textoGrande p { font-size: 45%; }
+    h6 { font-size: 0.75em!important; }
+    h6.my-3 { margin-top: 1em!important; margin-bottom: 0.5em!important; }
+    p.ultimop { margin-right: 3em!important; }
+    
+    /* Botón volver hacia arriba */    
+    div.btnContenedor.mostrarBoton { bottom: 1.75em; right: 0.5em; }
+}
