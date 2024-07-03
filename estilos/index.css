@@ -27,12 +27,17 @@ and open the template in the editor.
 .colorFondo { background: rgba(0,0,0,0.3); }
 
 /* Sección principal */
+.vh-100 { height: 100vh!important; } 
 .titulos { font-family: 'Bree Serif', serif; }
-main .my-5 { margin-top: 3em!important; margin-bottom: 3em!important; }
-main .py-5 { padding-top: 3em!important; padding-bottom: 3em!important; }
-main .display-3 { font-size: 4.5em!important; }    
-.txtVision p, .txtVersiculo p { font-family: 'Noto Serif', serif; font-size: 2.75em; line-height: 1.75em; }
+main .my-5 { margin-top: 2em!important; margin-bottom: 1em!important; }
+main .p-4 { padding: 1.5em!important; }
+main .display-3 { font-size: 4.5em!important; } 
+main .w-75 { width: 55% !important; }
+.txtVision p, .txtVersiculo p { font-family: 'Noto Serif', serif; font-size: 2.25em; line-height: 1.75em; }
 .bordes { border-top: 0.5em double var(--colorAzul); border-bottom: 0.5em double var(--colorAzul); }
+
+/* Menú de opciones */
+.card { margin-bottom: 1.5em !important; font-size: 80%; width: 18rem !important; }
 
 /* Imagenes movibles */
 .parallax-seccion-1 { background-image: url('../imagenes/fondoParallax_1.jpg'); background-attachment: fixed; }
@@ -60,14 +65,26 @@ main .display-3 { font-size: 4.5em!important; }
     
     /* Encabezado */
     .encabezado .img-fluid { max-width: 80%; }
-    .encabezado .py-5 { padding-top: 2.5rem!important; padding-bottom: 2.5rem!important; }
+    .encabezado .p-4 { padding: 1.5em!important; }
     
     /* Sección principal */
-    main .vh-100 { height: 100vh!important; } 
-    main .my-5 { margin-top: 2.5em!important; margin-bottom: 2.5em!important; }
-    main .py-5 { padding-top: 2.5em!important; padding-bottom: 2.5em!important; }
+    main .my-5 { margin-top: 2em!important; margin-bottom: 1em!important; }
+    main .py-5 { padding-top: 2em!important; padding-bottom: 1em!important; }
     main .display-3 { font-size: 4em!important; }
-    .txtVision p, .txtVersiculo p { font-size: 2.5em; }   
+    main .w-75 { width: 55% !important; }
+    .txtVision p, .txtVersiculo p { font-size: 2em; }   
+    
+    /* Menú de opciones */
+    .card { margin-bottom: 1.5em !important; font-size: 80%; width: 18em !important; }
+    .card-title { font-size: 1.5em !important; }
+    .btn-lg { font-size: 1.5em !important; }
+    
+    /* Pie de página */    
+    footer .w-50 { width: 60% !important; }
+    .list-group-item { padding: 1em 0 !important; }
+    
+    /* Preloader */
+    .contenedorLoader img { width: 20%; }
 }
 
 /* Estilo para dispositivos con tamaño de pantalla mayor a 1200px y menor que 1424px */
@@ -75,14 +92,27 @@ main .display-3 { font-size: 4.5em!important; }
     
     /* Encabezado */
     .encabezado .img-fluid { max-width: 80%; }
-    .encabezado .py-5 { padding-top: 2.25em!important; padding-bottom: 2.25em!important; }
+    .encabezado .p-4 { padding: 1.25em!important; }
     
     /* Sección principal */
     main .vh-100 { height: 100vh!important; } 
-    main .my-5 { margin-top: 2em!important; margin-bottom: 2em!important; }
-    main .py-5 { padding-top: 2em!important; padding-bottom: 2em!important; }
-    main .display-3 { font-size: 3.5em!important; }
-    .txtVision p, .txtVersiculo p { font-size: 2em; }    
+    main .my-5 { margin-top: 2em!important; margin-bottom: 1em!important; }
+    main .py-5 { padding-top: 2em!important; padding-bottom: 1em!important; }
+    main .w-75 { width: 55% !important; }
+    main .display-3 { font-size: 3.25em!important; }
+    .txtVision p, .txtVersiculo p { font-size: 2em; } 
+    
+    /* Menú de opciones */
+    .card { margin-bottom: 1.5em !important; font-size: 80%; width: 18em !important; }
+    .card-title { font-size: 1.5em !important; }
+    .btn-lg { font-size: 1.5em !important; }
+    
+    /* Pie de página */    
+    footer .w-50 { width: 70% !important; }
+    .list-group-item { padding: 1em 0 !important; }
+    
+    /* Preloader */
+    .contenedorLoader img { width: 20%; }
 }
 
 /* Estilo para dispositivos con tamaño de pantalla mayor a 992px y menor que 1200px */
@@ -90,17 +120,20 @@ main .display-3 { font-size: 4.5em!important; }
     
     /* Encabezado */    
     .encabezado .img-fluid { max-width: 75%; }
-    .encabezado .py-5 { padding-top: 2em!important; padding-bottom: 2em!important; }
+    .encabezado .p-4 { padding: 1.25em!important; }
     
     /* Sección principal */      
     main .vh-100 { height: 80vh!important; } 
     main .my-5 { margin-top: 1.5em!important; margin-bottom: 1.5em!important; }
     main .py-5 { padding-top: 1.5em!important; padding-bottom: 1.5em!important; }
-    main .display-3 { font-size: 3em!important; }
+    main .w-75 { width: 45% !important; }
+    main .display-3 { font-size: 2.75em!important; }
     .txtVision p, .txtVersiculo p { font-size: 1.5em; }
     
     /* Menú de opciones */
-    .card { margin-bottom: 1.5em !important; font-size: 80%; }    
+    .card { margin-bottom: 1.5em !important; font-size: 80%; width: 15em !important; }
+    .card-title { font-size: 1.5em !important; }
+    .btn-lg { font-size: 1.5em !important; }
     
     /* Carrusel de imágenes */
     .carousel-control-next, .carousel-control-prev { top: -3em !important; }
@@ -110,7 +143,11 @@ main .display-3 { font-size: 4.5em!important; }
     .wave { top: -6.5em; }   
     
     /* Pie de página */
-    .list-group-item { padding-left: 1em!important; padding-right: 1em!important; }
+    footer .w-50 { width: 75% !important; }
+    .list-group-item { padding: 1em 0 !important; }
+    
+    /* Preloader */
+    .contenedorLoader img { width: 25%; }
 }
 
 /* Estilo para dispositivos con tamaño de pantalla mayor a 768px y menor que 992px */
@@ -118,27 +155,35 @@ main .display-3 { font-size: 4.5em!important; }
     
     /* Encabezado */
     .encabezado .img-fluid { max-width: 70%; }
-    .encabezado .py-5 { padding-top: 1.75em!important; padding-bottom: 1.75em!important; }
+    .encabezado .p-4 { padding: 1.25em!important; }
     
     /* Sección principal */    
     main .vh-100 { height: 65vh!important; }
     main .my-5 { margin-top: 1em!important; margin-bottom: 1em!important; }
     main .py-5 { padding-top: 1em!important; padding-bottom: 1em!important; }
-    main .display-3 { font-size: 2.75em!important; }
+    main .w-75 { width: 45% !important; }
+    main .display-3 { font-size: 2.5em!important; }
     .txtVision p, .txtVersiculo p { font-size: 1.25em; }
     
     /* Menú de opciones */
-    .card { margin-bottom: 1em !important; font-size: 70%; }    
+    .card { margin-bottom: 1em !important; font-size: 70%; width: 14.5em !important; }
+    .card-title { font-size: 1.5em !important; }
+    .btn-lg { font-size: 1.5em !important; }
     
     /* Carrusel de imágenes */
     .carousel-control-next, .carousel-control-prev { top: -3em !important; }
+    .carousel-item .w-50 { width: 65% !important; }
     .flechaPrev, .flechaSig { font-size: 3em; }
     
     /* Efecto de onda */
     .wave { top: -6em; }
     
+    /* Pie de página */
+    .col-sm-4 .txtInfo, .barraInfo { font-size: 0.65em !important; }
+    .list-group-item { padding: 1em 0 !important; }
+    
     /* Preloader */
-    .contenedorLoader img { width: 20%; }
+    .contenedorLoader img { width: 30%; }
 }
 
 /* Estilo para dispositivos con tamaño de pantalla mayor a 576px y menor que 768px */
@@ -146,64 +191,102 @@ main .display-3 { font-size: 4.5em!important; }
     
     /* Encabezado */
     .encabezado .img-fluid { max-width: 65%; }
-    .encabezado .py-5 { padding-top: 1.5em!important; padding-bottom: 1.5em!important; }
+    .encabezado .p-4 { padding: 1em!important; }
     
     /* Sección principal */
     main .vh-100 { height: 57vh!important; }
     main .my-5 { margin-top: 0.75em!important; margin-bottom: 0.75em!important; }
     main .py-5 { padding-top: 0.75em!important; padding-bottom: 0.75em!important; }
-    main .display-3 { font-size: 2.5em!important; }
+    main .w-75 { width: 35% !important; }
+    main .display-3 { font-size: 2.25em!important; }
     .txtVision p, .txtVersiculo p { font-size: 1.25em; }
     
     /* Menú de opciones */
-    .card { margin-bottom: 0.75em!important; font-size: 70%; }    
+    .card { margin-bottom: 0.75em!important; font-size: 70%; width: 17em !important; }
+    .card-title { font-size: 1.5em !important; }
+    .btn-lg { font-size: 1.5em !important; }   
     
     /* Carrusel de imágenes */
     .carousel-control-next, .carousel-control-prev { top: -3em !important; }
+    .carousel-item .w-50 { width: 65% !important; }
     .flechaPrev, .flechaSig { font-size: 2em; }
     
     /* Efecto de onda */
     .wave { top: -5em; }
     
     /* Pie de página */
-    .col-sm-4 { width: 33%!important; padding-right: 0!important; }
+    .col-sm-4 { padding-right: 0!important; }
     .col-sm-4 h4 { font-size: 0.75em !important; }
     .col-sm-4 .txtInfo, .barraInfo { font-size: 0.55em !important; }
-    
-    /* Preloader */
-    .contenedorLoader img { width: 20%; }    
+    .list-group-item { padding: 1em !important }        
 }
 
-/* Estilo para dispositivos con tamaño de pantalla menor que 576px */
-@media screen and (max-width: 575.98px) {
+/* Estilo para dispositivos con tamaño de pantalla mayor a 481px y menor que 575.98px */
+@media screen and (min-width: 481px) and (max-width: 575.98px) {
     
     /* Encabezado */
     .encabezado .img-fluid { max-width: 55%; }
-    .encabezado .py-5 { padding-top: 1.5em!important; padding-bottom: 1.5em!important; }
+    .encabezado .p-4 { padding: 0.75em!important; }
 
     /* Sección principal */
     main .vh-100 { height: 50vh!important; }
-    main .display-3 { font-size: 2.25em!important; }
+    main .display-3 { font-size: 2em!important; }
     main .my-5 { margin-top: 0.5em!important; margin-bottom: 0.5em!important; }
     main .py-5 { padding-top: 0.5em!important; padding-bottom: 0.5em!important; }
+    main .w-75 { width: 35% !important; }
     .txtVision p, .txtVersiculo p { font-size: 1em; }
     
     /* Menú de opciones */
-    .card { margin-bottom: 0.5em !important; font-size: 70%; }    
+    .card { margin-bottom: 0.5em !important; font-size: 70%; width: 15em !important; }
+    .card-title { font-size: 1.25em !important; }
+    .btn-lg { font-size: 1.25em !important; }
     
     /* Carrusel de imágenes */
-    .carousel-control-next, .carousel-control-prev { top: -2em !important; }
+    .carousel-item .w-50 { width: 60% !important; }
+    .carousel-control-next, .carousel-control-prev { top: -2em !important; }    
     .flechaPrev, .flechaSig { font-size: 2em; }
     
     /* Efecto de onda */
-    .wave { top: -5em; }
+    .wave { display: none; }
     
     /* Pie de página */
-    .col-4 { width: 33%!important; padding-right: 0!important; }
-    .col-4 h4 { font-size: 0.75em !important; }
-    .col-4 .txtInfo, .barraInfo { font-size: 0.55em !important; }
-    .list-group-item { padding-left: 1em!important; padding-right: 1em!important; }
+    .col-4 { padding-right: 0 !important; }
+    .col-4 h4 { font-size: 0.75em !important; }    
+    .col-4 .txtInfo, .barraInfo { font-size: 0.5em !important; }
+    .list-group-item { padding: 1em !important }        
+}
+
+/* Estilo para dispositivos con tamaño de pantalla menor que 480px */
+@media screen and (max-width: 480px) {
     
-    /* Preloader */
-    .contenedorLoader img { width: 20%; }
+    /* Encabezado */
+    .encabezado .img-fluid { max-width: 45%; }
+    .encabezado .p-4 { padding: 0.75em !important; }
+    
+    /* Sección principal */
+    main .vh-100 { height: 44vh!important; }
+    main .display-3 { font-size: 2em!important; }
+    main .my-5 { margin-top: 0.5em!important; margin-bottom: 0.5em!important; }
+    main .py-5 { padding-top: 0.5em!important; padding-bottom: 0.5em!important; }
+    main .w-75 { width: 35% !important; }
+    .txtVision p, .txtVersiculo p { font-size: 1em; }
+    
+    /* Menú de opciones */
+    .card { margin-bottom: 0.5em !important; font-size: 70%; width: 18em !important; }
+    .card-title { font-size: 1.25em !important; }
+    .btn-lg { font-size: 1.25em !important; }
+    
+    /* Carrusel de imágenes */    
+    .carousel-item .w-50 { width: 60% !important; }
+    .carousel-control-next, .carousel-control-prev { top: -2em !important; }
+    .flechaPrev, .flechaSig { font-size: 1.5em; }    
+        
+    /* Efecto de onda */
+    .wave { display: none; }
+        
+    /* Pie de página */
+    .col-4 { padding-right: 0 !important; }
+    .col-4 h4 { font-size: 0.6em !important; }    
+    .col-4 .txtInfo, .barraInfo { font-size: 0.35em !important; }
+    .list-group-item { padding: 1em!important; }
 }

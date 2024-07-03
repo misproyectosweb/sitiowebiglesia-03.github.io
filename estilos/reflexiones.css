@@ -21,33 +21,36 @@ and open the template in the editor.
 /* Encabezado */
 .encabezado { z-index: 50; background: linear-gradient(to right, var(--colorWhitesmoke) 0%, var(--colorDorado) 100%); box-shadow: 0 0.625em 0.625em 0 rgba(0,0,0,0.5); }
 header a .img-fluid { max-width: 85%; }
-li.nav-item.mx-5 { margin-left: 2em!important; margin-right: 2em!important; }
-li.nav-item.px-1 { padding-left: 0.25em!important; padding-right: 0.25em!important; }
+header .p-4 { padding: 1.5em!important; }
 
 /* Menú */
 .menu ul li { font-size: 1.25em; }
 .menu ul { justify-content: space-around; }
-ul#pills-tab.nav.nav-pills.py-3 { padding-top: 1em!important; padding-bottom: 1em!important; }
 
 /* Botón del menú */
 div.btnMenu i { font-size: 2em; }
 div.btnMenu.mr-5 { margin-right: 3em!important; }
 div.btnMenu.pb-3 { padding-bottom: 1em!important; }
+li.nav-item.mx-5 { margin-left: 2em!important; margin-right: 2em!important; }
 
 /* Sección del artículo */
 .contenido { max-width: 80%!important; }
 
 /* Cuerpo del documento  */
 .imgFondoAzul { background-image: url('../imagenes/fondoAzul.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center; }
-p { font-size: 100%; }
 h2 { font-size: 2em!important; }
-h2.mb-0.pt-4.font-weight-bold { padding-top: 1em!important; }
 h3 { font-size: 1.75em!important; }
-hr { width: 100%; border-top: 0.125em solid rgba(181,154,71,0.9)!important; } 
-.blockquote { font-size: 1.25em!important; }
-.blockquote-footer { font-size: 80%!important; }
+hr { width: 100%; border-top: 0.125em solid rgba(181,154,71,0.9)!important; }
+.img-fluid { width: 70%; }
+p { font-size: 100%; }
+.blockquote.p-5 { padding: 2.75em!important; }
+.blockquote.m-5 { margin: 2.75em!important; }
+.blockquote-footer { font-size: 65%!important; }
 ul.lista { font-size: 95%; }
-.textoGrande { background: var(--colorWhitesmoke); width: 11.5em; height: 11em; font-size: 2em; font-weight: 700; border-right: 0.3125em solid var(--colorDorado); }
+.textoGrande { background: var(--colorWhitesmoke); width: 12em; height: 12em; font-size: 2em; font-weight: 700; border-right: 0.3125em solid var(--colorDorado); }
+.textoGrande.p-3 { padding: 0.75em !important; }
+.textoGrande.mt-2 { margin-top: 0.5em !important; }
+.textoGrande.mr-3 { margin-right: 0.75em !important; }
 .btnContenedor { position: fixed; bottom: 3em; right: 4.5em; width: 4em; height: 4em; z-index: -1; }
 
 /* Botón volver hacia arriba */
@@ -76,29 +79,37 @@ div.btnContenedor.mostrarBoton { bottom: 3em; right: 3em; }
     
     /* Encabezado */
     header a .img-fluid { max-width: 80%; }
-    header .py-5 { padding-top: 2.25em!important; padding-bottom: 2.25em!important; }
-    li.nav-item.mx-5 { margin-left: 1.75em!important; margin-right: 1.75em!important; }
-    li.nav-item.px-1 { padding-left: 0.25em!important; padding-right: 0.25em!important; }
-    
+    header .p-4 { padding: 1.5em!important; }
+            
     /* Menú */
-    .menu ul li { font-size: 90%; }
-    .menu ul { justify-content: space-around; }
-    ul#pills-tab.nav.nav-pills.py-3 { padding-top: 0.75em!important; padding-bottom: 0.75em!important; }
+    .menu ul li { font-size: 95%; }
+    .menu ul { justify-content: space-around; }    
             
     /* Botón del menú */
     div.btnMenu i { font-size: 2em; }
     div.btnMenu.mr-5 { margin-right: 2.5em!important; }
     div.btnMenu.pb-3 { padding-bottom: 0.75em!important; }
+    li.nav-item.mx-5 { margin-left: 1.75em!important; margin-right: 1.75em!important; }
     
     /* Sección del artículo */
     .contenido { max-width: 85%!important; }
     
     /* Cuerpo del documento  */
-    hr { width: 100%; border-top: 0.125em solid rgba(181,154,71,0.9)!important; } 
+    h2 { font-size: 2em!important; }    
+    h3 { font-size: 1.75em!important; }
+    hr { width: 100%; border-top: 0.125em solid rgba(181,154,71,0.9)!important; }
+    .img-fluid { width: 85%; }
+    p { font-size: 90%; }    
     .blockquote.p-5 { padding: 2.5em!important; }
     .blockquote.m-5 { margin: 2.5em!important; }
-    .textoGrande { width: 10em; height: 8em; padding: 1em!important; margin-right: 1em!important; }
-    .textoGrande p { font-size: 82%; }    
+    .blockquote-footer { font-size: 60%!important; }
+    ul.lista { font-size: 90%; }
+    .textoGrande { width: 11em; height: 11em; }
+    .textoGrande.p-3 { padding: 0.5em !important; }
+    .textoGrande.mt-2 { margin-top: 0.25em !important; }
+    .textoGrande.mr-3 { margin-right: 0.5em !important; }
+    .textoGrande p { font-size: 85%; } 
+    p.ultimop { margin-right: 3em!important; }
     
     /* Botón volver hacia arriba */
     div.btnContenedor.mostrarBoton { bottom: 2em; right: 1.5em; }    
@@ -109,36 +120,36 @@ div.btnContenedor.mostrarBoton { bottom: 3em; right: 3em; }
     
     /* Encabezado */
     header a .img-fluid { max-width: 80%; }
-    header .py-5 { padding-top: 2.25em!important; padding-bottom: 2.25em!important; }
-    li.nav-item.mx-5 { margin-left: 1.5em!important; margin-right: 1.5em!important; }
-    li.nav-item.px-1 { padding-left: 0.25em!important; padding-right: 0.25em!important; }
+    header .p-4 { padding: 1.25em!important; }        
     
     /* Menú */
     .menu ul li { font-size: 90%; }
-    .menu ul { justify-content: space-around; }
-    ul#pills-tab.nav.nav-pills.py-3 { padding-top: 0.75em!important; padding-bottom: 0.75em!important; }
+    .menu ul { justify-content: space-around; }    
             
     /* Botón del menú */
     div.btnMenu i { font-size: 2em; }
     div.btnMenu.mr-5 { margin-right: 2.5em!important; }
     div.btnMenu.pb-3 { padding-bottom: 0.75em!important; }
+    li.nav-item.mx-5 { margin-left: 1.25em!important; margin-right: 1.25em!important; }
     
     /* Sección del artículo */
     .contenido { max-width: 85%!important; }
             
-    /* Cuerpo del documento */
-    p { font-size: 95%; }
-    h2 { font-size: 2em!important; }
-    h2.mb-0.pt-4.font-weight-bold { padding-top: 0.75em!important; }
+    /* Cuerpo del documento */    
+    h2 { font-size: 2em!important; }    
     h3 { font-size: 1.75em!important; }
-    hr { width: 100%; border-top: 0.125em solid rgba(181,154,71,0.9)!important; } 
-    .blockquote { font-size: 1.25em!important; }
-    .blockquote.p-5 { padding: 2.5em!important; }
-    .blockquote.m-5 { margin: 2.5em!important; }
-    .blockquote-footer { font-size: 80%!important; }
-    ul.lista { font-size: 95%; }
-    .textoGrande { width: 8em; height: 7em; padding: 1em!important; margin-right: 1em!important; }
-    .textoGrande p { font-size: 65%; }
+    hr { width: 100%; border-top: 0.125em solid rgba(181,154,71,0.9)!important; }
+    .img-fluid { width: 90%; }
+    p { font-size: 90%; }    
+    .blockquote.p-5 { padding: 2em!important; }
+    .blockquote.m-5 { margin: 2em!important; }
+    .blockquote-footer { font-size: 60%!important; }
+    ul.lista { font-size: 90%; }
+    .textoGrande { width: 10em; height: 10em; }
+    .textoGrande.p-3 { padding: 0.5em !important; }
+    .textoGrande.mt-2 { margin-top: 0.25em !important; }
+    .textoGrande.mr-3 { margin-right: 0.5em !important; }
+    .textoGrande p { font-size: 80%; } 
     p.ultimop { margin-right: 3em!important; }
     
     /* Botón volver hacia arriba */
@@ -150,36 +161,36 @@ div.btnContenedor.mostrarBoton { bottom: 3em; right: 3em; }
     
     /* Encabezado */
     header a .img-fluid { max-width: 75%; }
-    header .py-5 { padding-top: 2em!important; padding-bottom: 2em!important; }
-    li.nav-item.mx-5 { margin-left: 1.5em!important; margin-right: 1.5em!important; }
-    li.nav-item.px-1 { padding-left: 0.25em!important; padding-right: 0.25em!important; }
-    
+    header .p-4 { padding: 1.25em!important; }
+            
     /* Menú */
-    .menu ul li { font-size: 90%; }
-    .menu ul { justify-content: space-around; }
-    ul#pills-tab.nav.nav-pills.py-3 { padding-top: 0.5em!important; padding-bottom: 0.5em!important; }
+    .menu ul li { font-size: 85%; }
+    .menu ul { justify-content: space-around; }    
     
     /* Botón del menú */
     div.btnMenu i { font-size: 2em; }
     div.btnMenu.mr-5 { margin-right: 2em!important; }
     div.btnMenu.pb-3 { padding-bottom: 0.5em!important; }
+    li.nav-item.mx-5 { margin-left: 1em!important; margin-right: 1em!important; }
     
     /* Sección del artículo */
     .contenido { max-width: 85%!important; }
     
-    /* Cuerpo del documento */
-    p { font-size: 90%; }
-    h2 { font-size: 2em!important; }
-    h2.mb-0.pt-4.font-weight-bold { padding-top: 0.75em!important; }
+    /* Cuerpo del documento */    
+    h2 { font-size: 2em!important; }    
     h3 { font-size: 1.5em!important; }
-    hr { width: 100%; border-top: 0.125em solid rgba(181,154,71,0.9)!important; } 
-    .blockquote { font-size: 1.25em!important; }
-    .blockquote.p-5 { padding: 2em!important; }
-    .blockquote.m-5 { margin: 2em!important; }
-    .blockquote-footer { font-size: 70%!important; }
-    ul.lista { font-size: 90%; }
-    .textoGrande { width: 8em; height: 7em; padding: 0.75em!important; margin-right: 0.75em!important; }
-    .textoGrande p { font-size: 65%; }
+    hr { width: 100%; border-top: 0.125em solid rgba(181,154,71,0.9)!important; }
+    .img-fluid { width: 90%; }
+    p { font-size: 85%; }
+    .blockquote.p-5 { padding: 1.75em!important; }
+    .blockquote.m-5 { margin: 1.75em!important; }
+    .blockquote-footer { font-size: 60%!important; }
+    ul.lista { font-size: 85%; }
+    .textoGrande { width: 9em; height: 9em; }
+    .textoGrande.p-3 { padding: 0.5em !important; }
+    .textoGrande.mt-2 { margin-top: 0.25em !important; }
+    .textoGrande.mr-3 { margin-right: 0.5em !important; }
+    .textoGrande p { font-size: 75%; } 
     h6 { font-size: 1em!important; }
     p.ultimop { margin-right: 3em!important; }
     
@@ -192,39 +203,39 @@ div.btnContenedor.mostrarBoton { bottom: 3em; right: 3em; }
     
     /* Encabezado */
     header a .img-fluid { max-width: 70%; }
-    header .py-5 { padding-top: 1.75em!important; padding-bottom: 1.75em!important; }
-    li.nav-item.mx-5 { margin-left: 0.75em!important; margin-right: 0.75em!important; }
-    li.nav-item.px-1 { padding-left: 0!important; padding-right: 0!important; }
+    header .p-4 { padding: 1.25em !important; }
     
     /* Menú */
     .menu ul li { font-size: 80%; }
     .menu ul { justify-content: space-around; }
-    ul#pills-tab.nav.nav-pills.py-3 { padding-top: 0.5em!important; padding-bottom: 0.5em!important; }
     
     /* Botón del menú */
     div.btnMenu i { font-size: 2em; }
-    div.btnMenu.mr-5 { margin-right: 2em!important; }
-    div.btnMenu.pb-3 { padding-bottom: 0.5em!important; }
+    div.btnMenu.mr-5 { margin-right: 2em !important; }
+    div.btnMenu.pb-3 { padding-bottom: 0.5em !important; }
+    li.nav-item.mx-5 { margin-left: 0.75em !important; margin-right: 0.75em !important; }
     
     /* Sección del artículo */
-    .contenido { max-width: 90%!important; }
+    .contenido { max-width: 90% !important; }
     
-    /* Cuerpo del documento  */
-    p { font-size: 80%; }
-    h2 { font-size: 1.75em!important; }
-    h2.mb-0.pt-4.font-weight-bold { padding-top: 0.75em!important; }
-    h3 { font-size: 1.25em!important; }
+    /* Cuerpo del documento  */    
+    h2 { font-size: 1.75em !important; }
+    h3 { font-size: 1.25em !important; }
     hr { width: 100%; border-top: 0.125em solid rgba(181,154,71,0.9)!important; } 
-    .blockquote { font-size: 1em!important; }
-    .blockquote.p-5 { padding: 1.5em!important; }
-    .blockquote.m-5 { margin: 1.5em!important; }
-    .blockquote-footer { font-size: 60%!important; }
+    .img-fluid { width: 90%; }
+    p { font-size: 80%; }
+    .blockquote.p-5 { padding: 1.5em !important; }
+    .blockquote.m-5 { margin: 1.5em !important; }
+    .blockquote-footer { font-size: 60% !important; }
     ul.lista { font-size: 80%; }
-    .textoGrande { width: 6em; height: 5em; padding: 0.75em!important; margin-right: 0.75em!important; }
-    .textoGrande p { font-size: 45%; }
-    h6 { font-size: 1em!important; }
-    h6.my-3 { margin-top: 1em!important; margin-bottom: 1em!important; }
-    p.ultimop { margin-right: 3em!important; }
+    .textoGrande { width: 8em; height: 8em; }
+    .textoGrande.p-3 { padding: 0.5em !important; }
+    .textoGrande.mt-2 { margin-top: 0.25em !important; }
+    .textoGrande.mr-3 { margin-right: 0.5em !important; }
+    .textoGrande p { font-size: 65%; } 
+    h6 { font-size: 1em !important; }
+    h6.my-3 { margin-top: 1em !important; margin-bottom: 1em !important; }
+    p.ultimop { margin-right: 3em !important; }
     
     /* Botón volver hacia arriba */
     div.btnContenedor.mostrarBoton { bottom: 1.75em; right: 1em; }
@@ -235,82 +246,124 @@ div.btnContenedor.mostrarBoton { bottom: 3em; right: 3em; }
     
     /* Encabezado */
     header a .img-fluid { max-width: 65%; }
-    header .py-5 { padding-top: 1.5em!important; padding-bottom: 1.5em!important; }
-    li.nav-item.mx-5 { margin-left: 0.75em!important; margin-right: 0.75em!important; }
-    li.nav-item.px-1 { padding-left: 0!important; padding-right: 0!important; }
-    
+    header .p-4 { padding: 1em !important; }
+        
     /* Menú */
-    .menu ul li { font-size: 70%; }
-    .menu ul { justify-content: space-around; }
-    ul#pills-tab.nav.nav-pills.py-3 { padding-top: 0.25em!important; padding-bottom: 0.25em!important; }
+    .menu ul li { font-size: 80%; }
+    .menu ul { display: flex; flex-direction: column; }
     
     /* Botón del menú */
     div.btnMenu i { font-size: 1.5em; }
-    div.btnMenu.mr-5 { margin-right: 1.5em!important; }
-    div.btnMenu.pb-3 { padding-bottom: 0!important; }
+    div.btnMenu.mr-5 { margin-right: 1.5em !important; }
+    div.btnMenu.pb-3 { padding-bottom: 0 !important; }
+    li.nav-item.mx-5 { margin-left: 0.75em !important; margin-right: 0.75em !important; }
     
     /* Sección del artículo */
-    .contenido { max-width: 90%!important; }
+    .contenido { max-width: 90% !important; }
     
-    /* Cuerpo del documento  */
-    p { font-size: 70%; }
-    h2 { font-size: 1.5em!important; }
-    h2.mb-0.pt-4.font-weight-bold { padding-top: 0.75em!important; }    
-    h3 { font-size: 1em!important; }
+    /* Cuerpo del documento  */    
+    h2 { font-size: 1.5em !important; }
+    h3 { font-size: 1em !important; }
     hr { width: 100%; border-top: 0.125em solid rgba(181,154,71,0.9)!important; } 
-    .blockquote { font-size: 1em!important; }
-    .blockquote.p-5 { padding: 1em!important; }
-    .blockquote.m-5 { margin: 1em!important; }
-    .blockquote-footer { font-size: 60%!important; }
-    ul.lista { font-size: 70%; }
-    .textoGrande { width: 6em; height: 5em; padding: 0.75em!important; margin-right: 0.75em!important; }
-    .textoGrande p { font-size: 45%; }
-    h6 { font-size: 0.75em!important; }
-    h6.my-3 { margin-top: 1em!important; margin-bottom: 1em!important; }
-    p.ultimop { margin-right: 3em!important; }
+    .img-fluid { width: 90%; }
+    p { font-size: 75%; }
+    .blockquote.p-5 { padding: 0.75em !important; }
+    .blockquote.m-5 { margin: 0.75em !important; }
+    .blockquote-footer { font-size: 60% !important; }
+    ul.lista { font-size: 75%; }
+    .textoGrande { width: 7em; height: 7em; }
+    .textoGrande.p-3 { padding: 0.5em !important; }
+    .textoGrande.mt-2 { margin-top: 0.25em !important; }
+    .textoGrande.mr-3 { margin-right: 0.5em !important; }
+    .textoGrande p { font-size: 60%; }        
+    h6 { font-size: 0.75em !important; }
+    h6.my-3 { margin-top: 1em !important; margin-bottom: 1em !important; }
+    p.ultimop { margin-right: 3em !important; }
     
     /* Botón volver hacia arriba */
     div.btnContenedor.mostrarBoton { bottom: 1.75em; right: 0.5em; }
 }
 
 /* Estilo para dispositivos con tamaño de pantalla menor que 576px */
-@media screen and (max-width: 575.98px) {
+@media screen and (min-width: 481px) and (max-width: 575.98px) {
     
     /* Encabezado */
     header a .img-fluid { max-width: 55%; }
-    header .py-5 { padding-top: 1.5em!important; padding-bottom: 1.5em!important; }
-    li.nav-item.mx-5 { margin-left: 0!important; margin-right: 0!important; }
-    li.nav-item.px-1 { padding-left: 0!important; padding-right: 0!important; }
+    header .p-4 { padding: 0.75em !important; }
     
     /* Menú */
-    .menu ul li { font-size: 70%; }
-    .menu ul { justify-content: space-around; }
-    ul#pills-tab.nav.nav-pills.py-3 { padding-top: 0.25em!important; padding-bottom: 0.25em!important; }
+    .menu ul li { font-size: 80%; }
+    .menu ul { display: flex; flex-direction: column; }
+        
+    /* Botón del menú */
+    div.btnMenu i { font-size: 1.5em; }
+    div.btnMenu.mr-5 { margin-right: 1em !important; }
+    div.btnMenu.pb-3 { padding-bottom: 0 !important; }
+    li.nav-item.mx-5 { margin-left: 0.5em !important; margin-right: 0.5em !important; }
+    
+    /* Sección del artículo */
+    .contenido { max-width: 90% !important; }
+    
+    /* Cuerpo del documento  */        
+    h2 { font-size: 1.5em !important; }
+    h3 { font-size: 1em !important; }  
+    hr { width: 100%; border-top: 0.125em solid rgba(181,154,71,0.9)!important; } 
+    .img-fluid { width: 90%; }
+    p { font-size: 75%; }
+    .blockquote.p-5 { padding: 0.5em !important; }
+    .blockquote.m-5 { margin: 0.5em !important; }
+    .blockquote-footer { font-size: 60% !important; }
+    ul.lista { font-size: 70%; }
+    .textoGrande { width: 7em; height: 7em; }
+    .textoGrande.p-3 { padding: 0.5em !important; }
+    .textoGrande.mt-2 { margin-top: 0.25em !important; }
+    .textoGrande.mr-3 { margin-right: 0.5em !important; }
+    .textoGrande p { font-size: 60%; }        
+    h6 { font-size: 0.75em !important; }
+    h6.my-3 { margin-top: 1em !important; margin-bottom: 0.5em !important; }
+    p.ultimop { margin-right: 3em !important; }
+    
+    /* Botón volver hacia arriba */    
+    div.btnContenedor.mostrarBoton { bottom: 1.75em; right: 0.5em; }
+}
+
+@media screen and (max-width: 480px) {
+    
+    /* Encabezado */
+    header a .img-fluid { max-width: 45%; }
+    header .p-4 { padding: 0.75em!important; }
+
+    /* Menú */
+    .menu ul li { font-size: 80%; }
+    .menu ul { display: flex; flex-direction: column; }
     
     /* Botón del menú */
     div.btnMenu i { font-size: 1.5em; }
-    div.btnMenu.mr-5 { margin-right: 1.5em!important; }
-    div.btnMenu.pb-3 { padding-bottom: 0!important; }
+    div.btnMenu.mr-5 { margin-right: 1.5em !important; }
+    div.btnMenu.pb-3 { padding-bottom: 0 !important; }
+    li.nav-item.mx-5 { margin-left: 0.5em !important; margin-right: 0.5em !important; }
     
     /* Sección del artículo */
-    .contenido { max-width: 90%!important; }
+    .contenido { max-width: 90% !important; }
     
-    /* Cuerpo del documento  */    
-    p { font-size: 60%; }
-    h2 { font-size: 1.25em!important; }
-    h2.mb-0.pt-4.font-weight-bold { padding-top: 0.75em!important; }
-    h3 { font-size: 1em!important; }  
+    /* Cuerpo del documento  */        
+    h2 { font-size: 1.5em !important; }
+    h3 { font-size: 1em !important; }  
     hr { width: 100%; border-top: 0.125em solid rgba(181,154,71,0.9)!important; } 
-    .blockquote { font-size: 1em!important; }
-    .blockquote.p-5 { padding: 1em!important; }
-    .blockquote.m-5 { margin: 1em!important; }
-    .blockquote-footer { font-size: 60%!important; }
-    ul.lista { font-size: 60%; }
-    .textoGrande { width: 6em; height: 5em; padding: 0.75em!important; margin-right: 0.75em!important; }
-    .textoGrande p { font-size: 45%; }
-    h6 { font-size: 0.75em!important; }
-    h6.my-3 { margin-top: 1em!important; margin-bottom: 0.5em!important; }
-    p.ultimop { margin-right: 3em!important; }
+    .img-fluid { width: 90%; }
+    p { font-size: 70%; }
+    .blockquote.p-5 { padding: 0.5em !important; }
+    .blockquote.m-5 { margin: 0.5em !important; }
+    .blockquote-footer { font-size: 60% !important; }
+    ul.lista { font-size: 70%; }
+    .textoGrande { width: 7em; height: 7em; }
+    .textoGrande.p-3 { padding: 0.5em !important; }
+    .textoGrande.mt-2 { margin-top: 0.25em !important; }
+    .textoGrande.mr-3 { margin-right: 0.5em !important; }
+    .textoGrande p { font-size: 60%; }
+    h6 { font-size: 0.75em !important; }
+    h6.my-3 { margin-top: 1em !important; margin-bottom: 0.5em !important; }
+    p.ultimop { margin-right: 3em !important; }
     
     /* Botón volver hacia arriba */    
     div.btnContenedor.mostrarBoton { bottom: 1.75em; right: 0.5em; }

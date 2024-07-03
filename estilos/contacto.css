@@ -21,27 +21,27 @@ and open the template in the editor.
 /* Encabezado */
 .encabezado { z-index: 50; background: linear-gradient(to right, var(--colorWhitesmoke) 0%, var(--colorDorado) 100%); box-shadow: 0 0.625em 0.625em 0 rgba(0,0,0,0.5); }
 header a .img-fluid { max-width: 85%; }
-li.nav-item.mx-5 { margin-left: 2em!important; margin-right: 2em!important; }
-li.nav-item.px-1 { padding-left: 0.25em!important; padding-right: 0.25em!important; }
+header .p-4 { padding: 1.5em !important; }
 
 /* Menú */
 .menu ul li { font-size: 1.25em; }
 .menu ul { justify-content: space-around; }
-ul#pills-tab.nav.nav-pills.py-3 { padding-top: 1em!important; padding-bottom: 1em!important; }
 
 /* Botón del menú */
 div.btnMenu i { font-size: 2em; }
-div.btnMenu.mr-5 { margin-right: 3em!important; }
-div.btnMenu.pb-3 { padding-bottom: 1em!important; }
+div.btnMenu.mr-5 { margin-right: 3em !important; }
+div.btnMenu.pb-3 { padding-bottom: 1em !important; }
+li.nav-item.mx-5 { margin-left: 2em !important; margin-right: 2em !important; }
 
 /* Sección de la información de contacto */
-.contenido { max-width: 80%!important; }
+.contenido { max-width: 80% !important; }
 
 /* Cuerpo del documento  */
 .imgFondoAzul { background-image: url('../imagenes/fondoAzul.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center; }
-h2 { font-size: 2em!important; }
-h2.mb-0.pt-4.font-weight-bold { padding-top: 1em!important; }
+h2 { font-size: 2em !important; }
+h3 { font-size: 1.75em !important; }
 hr { width: 100%; border-top: 0.125em solid rgba(181,154,71,0.9)!important; } 
+p { font-size: 1em; }
 iframe { width: 100%; }
 
 /********************* Media queries *********************/
@@ -51,28 +51,26 @@ iframe { width: 100%; }
     
     /* Encabezado */
     header a .img-fluid { max-width: 80%; }
-    header .py-5 { padding-top: 2.25em!important; padding-bottom: 2.25em!important; }
-    li.nav-item.mx-5 { margin-left: 1.75em!important; margin-right: 1.75em!important; }
-    li.nav-item.px-1 { padding-left: 0.25em!important; padding-right: 0.25em!important; }
+    header .p-4 { padding: 1.5em !important; }
     
     /* Menú */
-    .menu ul li { font-size: 90%; }
-    .menu ul { justify-content: space-around; }
-    ul#pills-tab.nav.nav-pills.py-3 { padding-top: 0.75em!important; padding-bottom: 0.75em!important; }
+    .menu ul li { font-size: 95%; }
+    .menu ul { justify-content: space-around; }    
             
     /* Botón del menú */
     div.btnMenu i { font-size: 2em; }
-    div.btnMenu.mr-5 { margin-right: 2.5em!important; }
-    div.btnMenu.pb-3 { padding-bottom: 0.75em!important; }
+    div.btnMenu.mr-5 { margin-right: 2.5em !important; }
+    div.btnMenu.pb-3 { padding-bottom: 0.75em !important; }
+    li.nav-item.mx-5 { margin-left: 1.75em !important; margin-right: 1.75em !important; }
     
-    /* Sección de la información de contacto */
+    /* Sección de noticias */
     .contenido { max-width: 85%!important; }
     
-    /* Cuerpo del documento  */
-    h2 { font-size: 2em!important; }
-    h2.mb-0.pt-4.font-weight-bold { padding-top: 0.75em!important; }
-    hr { width: 100%; border-top: 0.125em solid rgba(181,154,71,0.9)!important; } 
-    iframe { width: 100%; }    
+    /* Cuerpo del documento */
+    h2 { font-size: 2em !important; }    
+    h3 { font-size: 1.75em !important; } 
+    hr { width: 100%; border-top: 0.125em solid rgba(181,154,71,0.9)!important; }
+    p { font-size: 90%; }    
 }
 
 
@@ -81,57 +79,53 @@ iframe { width: 100%; }
     
     /* Encabezado */
     header a .img-fluid { max-width: 80%; }
-    header .py-5 { padding-top: 2.25em!important; padding-bottom: 2.25em!important; }
-    li.nav-item.mx-5 { margin-left: 1.5em!important; margin-right: 1.5em!important; }
-    li.nav-item.px-1 { padding-left: 0.25em!important; padding-right: 0.25em!important; }
-    
+    header .p-4 { padding: 1.25em !important; }
+            
     /* Menú */
     .menu ul li { font-size: 90%; }
-    .menu ul { justify-content: space-around; }
-    ul#pills-tab.nav.nav-pills.py-3 { padding-top: 0.75em!important; padding-bottom: 0.75em!important; }
+    .menu ul { justify-content: space-around; }    
             
     /* Botón del menú */
     div.btnMenu i { font-size: 2em; }
-    div.btnMenu.mr-5 { margin-right: 2.5em!important; }
-    div.btnMenu.pb-3 { padding-bottom: 0.75em!important; }
+    div.btnMenu.mr-5 { margin-right: 2.5em !important; }
+    div.btnMenu.pb-3 { padding-bottom: 0.75em !important; }
+    li.nav-item.mx-5 { margin-left: 1.25em !important; margin-right: 1.25em !important; }
     
-    /* Sección de la información de contacto */
-    .contenido { max-width: 85%!important; }
+    /* Sección de actividades */
+    .contenido { max-width: 85% !important; }
     
-    /* Cuerpo del documento  */
-    h2 { font-size: 2em!important; }
-    h2.mb-0.pt-4.font-weight-bold { padding-top: 0.75em!important; }
+    /* Cuerpo del documento */    
+    h2 { font-size: 2em !important; }    
+    h3 { font-size: 1.75em !important; } 
     hr { width: 100%; border-top: 0.125em solid rgba(181,154,71,0.9)!important; } 
-    iframe { width: 100%; }
+    p { font-size: 85%; }    
 }
 
 /* Estilo para dispositivos con tamaño de pantalla mayor a 992px y menor que 1200px */
 @media screen and (min-width: 992px) and (max-width: 1199.98px) {
     
     /* Encabezado */
-    header a .img-fluid { max-width: 75%; }
-    header .py-5 { padding-top: 2em!important; padding-bottom: 2em!important; }
-    li.nav-item.mx-5 { margin-left: 1.5em!important; margin-right: 1.5em!important; }
-    li.nav-item.px-1 { padding-left: 0.25em!important; padding-right: 0.25em!important; }
+    header a .img-fluid { max-width: 70%; }
+    header .p-4 { padding: 1.25em !important; }        
     
     /* Menú */
-    .menu ul li { font-size: 90%; }
-    .menu ul { justify-content: space-around; }
-    ul#pills-tab.nav.nav-pills.py-3 { padding-top: 0.5em!important; padding-bottom: 0.5em!important; }
+    .menu ul li { font-size: 80%; }
+    .menu ul { justify-content: space-around; }    
             
     /* Botón del menú */
     div.btnMenu i { font-size: 2em; }
-    div.btnMenu.mr-5 { margin-right: 2em!important; }
-    div.btnMenu.pb-3 { padding-bottom: 0.5em!important; }
+    div.btnMenu.mr-5 { margin-right: 2em !important; }
+    div.btnMenu.pb-3 { padding-bottom: 0.5em !important; }
+    li.nav-item.mx-5 { margin-left: 0.75em !important; margin-right: 0.75em !important; }
     
-    /* Sección de la información de contacto */
-    .contenido { max-width: 85%!important; }
+    /* Sección de actividades */
+    .contenido { max-width: 90% !important; border: 0.0625em solid #b59a47; }
     
-    /* Cuerpo del documento  */
-    h2 { font-size: 2em!important; }    
-    h2.mb-0.pt-4.font-weight-bold { padding-top: 0.75em!important; }
+    /* Cuerpo del documento  */    
+    h2 { font-size: 2em !important; }
+    h3 { font-size: 1.5em !important; }    
     hr { width: 100%; border-top: 0.125em solid rgba(181,154,71,0.9)!important; } 
-    iframe { width: 100%; }
+    p { font-size: 80%; }    
 }
 
 /* Estilo para dispositivos con tamaño de pantalla mayor a 768px y menor que 992px */
@@ -139,28 +133,26 @@ iframe { width: 100%; }
     
     /* Encabezado */
     header a .img-fluid { max-width: 70%; }
-    header .py-5 { padding-top: 1.75em!important; padding-bottom: 1.75em!important; }
-    li.nav-item.mx-5 { margin-left: 0.75em!important; margin-right: 0.75em!important; }
-    li.nav-item.px-1 { padding-left: 0!important; padding-right: 0!important; }
+    header .p-4 { padding: 1.25em !important; }        
     
     /* Menú */
     .menu ul li { font-size: 80%; }
-    .menu ul { justify-content: space-around; }
-    ul#pills-tab.nav.nav-pills.py-3 { padding-top: 0.5em!important; padding-bottom: 0.5em!important; }
+    .menu ul { justify-content: space-around; }    
             
     /* Botón del menú */
     div.btnMenu i { font-size: 2em; }
-    div.btnMenu.mr-5 { margin-right: 2em!important; }
-    div.btnMenu.pb-3 { padding-bottom: 0.5em!important; }
+    div.btnMenu.mr-5 { margin-right: 2em !important; }
+    div.btnMenu.pb-3 { padding-bottom: 0.5em !important; }
+    li.nav-item.mx-5 { margin-left: 0.75em !important; margin-right: 0.75em !important; }
     
-    /* Sección de la información de contacto */
-    .contenido { max-width: 90%!important; }
+    /* Sección de actividades */
+    .contenido { max-width: 90% !important; border: 0.0625em solid #b59a47; }
     
     /* Cuerpo del documento  */
-    h2 { font-size: 1.75em!important; }
-    h2.mb-0.pt-4.font-weight-bold { padding-top: 0.75em!important; }
+    h2 { font-size: 1.75em !important; }    
+    h3 { font-size: 1.25em !important; }
     hr { width: 100%; border-top: 0.125em solid rgba(181,154,71,0.9)!important; } 
-    iframe { width: 100%; }
+    p { font-size: 80%; }        
 }
 
 /* Estilo para dispositivos con tamaño de pantalla mayor a 576px y menor que 768px */
@@ -168,55 +160,77 @@ iframe { width: 100%; }
     
     /* Encabezado */
     header a .img-fluid { max-width: 65%; }
-    header .py-5 { padding-top: 1.5em!important; padding-bottom: 1.5em!important; }
-    li.nav-item.mx-5 { margin-left: 0.75em!important; margin-right: 0.75em!important; }
-    li.nav-item.px-1 { padding-left: 0!important; padding-right: 0!important; }
+    header .p-4 { padding: 1em !important; }       
     
     /* Menú */
-    .menu ul li { font-size: 70%; }
-    .menu ul { justify-content: space-around; }
-    ul#pills-tab.nav.nav-pills.py-3 { padding-top: 0.25em!important; padding-bottom: 0.25em!important; }
+    .menu ul li { font-size: 80%; }
+    .menu ul { display: flex; flex-direction: column; }
+            
+    /* Botón del menú */
+    div.btnMenu i { font-size: 1.5em; }
+    div.btnMenu.mr-5 { margin-right: 1.5em !important; }
+    div.btnMenu.pb-3 { padding-bottom: 0 !important; }
+    li.nav-item.mx-5 { margin-left: 0.75em !important; margin-right: 0.75em !important; }
+    
+    /* Sección de actividades */
+    .contenido { max-width: 90%!important; border: 0.0625em solid #b59a47; }
+    
+    /* Cuerpo del documento  */    
+    h2 { font-size: 1.5em !important; }    
+    h3 { font-size: 1.25em !important; }
+    hr { width: 100%; border-top: 0.125em solid rgba(181,154,71,0.9)!important; } 
+    p { font-size: 70%; }        
+}
+
+/* Estilo para dispositivos con tamaño de pantalla menor que 576px */
+@media screen and (min-width: 481px) and (max-width: 575.98px) {
+    
+    /* Encabezado */
+    header a .img-fluid { max-width: 55%; }
+    header .p-4 { padding: 0.75em!important; }
+            
+    /* Menú */
+    .menu ul li { font-size: 80%; }
+    .menu ul { display: flex; flex-direction: column; }    
             
     /* Botón del menú */
     div.btnMenu i { font-size: 1.5em; }
     div.btnMenu.mr-5 { margin-right: 1.5em!important; }
     div.btnMenu.pb-3 { padding-bottom: 0!important; }
+    li.nav-item.mx-5 { margin-left: 0.5em !important; margin-right: 0.5em !important; }
     
-    /* Sección de la información de contacto */
-    .contenido { max-width: 90%!important; }
+    /* Sección de actividades */
+    .contenido { max-width: 90%!important; border: 0.0625em solid #b59a47; }
     
     /* Cuerpo del documento  */
-    h2 { font-size: 1.5em!important; }
-    h2.mb-0.pt-4.font-weight-bold { padding-top: 0.75em!important; }
+    h2 { font-size: 1.5em!important; }   
+    h3 { font-size: 1.25em!important; }  
     hr { width: 100%; border-top: 0.125em solid rgba(181,154,71,0.9)!important; } 
-    iframe { width: 100%; }
+    p { font-size: 70%; }    
 }
 
-/* Estilo para dispositivos con tamaño de pantalla menor que 576px */
-@media screen and (max-width: 575.98px) {
+@media screen and (max-width: 480px) {
     
     /* Encabezado */
-    header a .img-fluid { max-width: 55%; }
-    header .py-5 { padding-top: 1.5em!important; padding-bottom: 1.5em!important; }
-    li.nav-item.mx-5 { margin-left: 0!important; margin-right: 0!important; }
-    li.nav-item.px-1 { padding-left: 0!important; padding-right: 0!important; }
+    header a .img-fluid { max-width: 45%; }
+    header .p-4 { padding: 0.75em!important; }
     
     /* Menú */
-    .menu ul li { font-size: 70%; }
-    .menu ul { justify-content: space-around; }
-    ul#pills-tab.nav.nav-pills.py-3 { padding-top: 0.25em!important; padding-bottom: 0.25em!important; }
-           
+    .menu ul li { font-size: 80%; }
+    .menu ul { display: flex; flex-direction: column; }
+    
     /* Botón del menú */
     div.btnMenu i { font-size: 1.5em; }
-    div.btnMenu.mr-5 { margin-right: 1.5em!important; }
-    div.btnMenu.pb-3 { padding-bottom: 0!important; }
+    div.btnMenu.mr-5 { margin-right: 1.5em !important; }
+    div.btnMenu.pb-3 { padding-bottom: 0 !important; }
+    li.nav-item.mx-5 { margin-left: 0.5em !important; margin-right: 0.5em !important; }
     
     /* Sección de la información de contacto */
     .contenido { max-width: 90%!important; }
     
-    /* Cuerpo del documento  */
-    h2 { font-size: 1.5em!important; }
-    h2.mb-0.pt-4.font-weight-bold { padding-top: 0.75em!important; }
-    hr { width: 100%; border-top: 0.125em solid rgba(181,154,71,0.9)!important; } 
-    iframe { width: 100%; }
+    /* Cuerpo del documento */
+    h2 { font-size: 1.25em!important; }
+    h3 { font-size: 1em!important; }
+    hr { width: 100%; border-top: 0.125em solid rgba(181,154,71,0.9)!important; }
+    p { font-size: 70%; }        
 }
