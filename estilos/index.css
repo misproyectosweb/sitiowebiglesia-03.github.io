@@ -31,14 +31,14 @@ and open the template in the editor.
 main .vh-100 { height: 100vh !important; } 
 main .display-3 { font-family: 'Bree Serif', serif; font-size: 4em !important; } 
 main .pt-5 { padding-top: 2.75em !important; } 
-main .mt-5 { margin-top: 2.25em !important; margin-bottom: 2.25em !important; }
+main .mt-5 { margin-top: 2.25em !important; }
 main .py-5 { padding-top: 2.25em !important; padding-bottom: 2.25em !important; }
 
 .txtVision p, .txtVersiculo p { font-family: 'Noto Serif', serif; font-size: 2.25em; line-height: 1.75em; }
 .bordes { border-top: 0.5em double var(--colorAzul); border-bottom: 0.5em double var(--colorAzul); }
 
 /* Menú de opciones */
-.row.mt-5 { margin-top: 2.75em !important; margin-bottom: 2.75em !important; }
+.row.mt-5 { margin-top: 2.75em !important; }
 .card-header { font-size: 3em !important; }
 .card-title { font-size: 1.5em !important; }
 .card-text { font-size: 1em !important; }
@@ -76,12 +76,12 @@ main .py-5 { padding-top: 2.25em !important; padding-bottom: 2.25em !important; 
     main .vh-100 { height: 100vh !important; }
     main .display-3 { font-size: 3.5em!important; }
     main .pt-5 { padding-top: 2.5em !important; } 
-    main .mt-5 { margin-top: 2em !important; margin-bottom: 2em !important; }
+    main .mt-5 { margin-top: 2em !important; }
     main .py-5 { padding-top: 2em !important; padding-bottom: 2em !important; }       
     .txtVision p, .txtVersiculo p { font-size: 2em; }   
     
     /* Menú de opciones */
-    .row.mt-5 { margin-top: 2.5em !important; margin-bottom: 2.5em !important; }
+    .row.mt-5 { margin-top: 2.5em !important; }
     .card-header { font-size: 3em !important; }
     .card-title { font-size: 1.5em !important; }
     .card-text { font-size: 1em !important; }
@@ -106,12 +106,12 @@ main .py-5 { padding-top: 2.25em !important; padding-bottom: 2.25em !important; 
     main .vh-100 { height: 100vh !important; }
     main .display-3 { font-size: 3.5em!important; }
     main .pt-5 { padding-top: 2.25em !important; } 
-    main .mt-5 { margin-top: 1.75em !important; margin-bottom: 1.75em !important; }
+    main .mt-5 { margin-top: 1.75em !important; }
     main .py-5 { padding-top: 1.75em !important; padding-bottom: 1.75em !important; }
     .txtVision p, .txtVersiculo p { font-size: 2em; } 
     
     /* Menú de opciones */
-    .row.mt-5 { margin-top: 2.25em !important; margin-bottom: 2.25em !important; }
+    .row.mt-5 { margin-top: 2.25em !important; }
     .card-header { font-size: 3em !important; }
     .card-title { font-size: 1.5em !important; }
     .card-text { font-size: 1em !important; }
@@ -136,13 +136,13 @@ main .py-5 { padding-top: 2.25em !important; padding-bottom: 2.25em !important; 
     main .vh-100 { height: 80vh !important; }
     main .display-3 { font-size: 3.5em !important; }
     main .pt-5 { padding-top: 2em !important; } 
-    main .mt-5 { margin-top: 1.5em !important; margin-bottom: 1.5em !important; }
+    main .mt-5 { margin-top: 1.5em !important; }
     main .py-5 { padding-top: 1.5em!important; padding-bottom: 1.5em!important; }    
     
     .txtVision p, .txtVersiculo p { font-size: 1.5em; }
     
     /* Menú de opciones */
-    .row.mt-5 { margin-top: 2em !important; margin-bottom: 2em !important; }
+    .row.mt-5 { margin-top: 2em !important; }
     .card-header { font-size: 3em !important; }
     .card-title { font-size: 1.5em !important; }
     .card-text { font-size: 1em !important; }
@@ -174,12 +174,12 @@ main .py-5 { padding-top: 2.25em !important; padding-bottom: 2.25em !important; 
     main .vh-100 { height: 70vh !important; }
     main .display-3 { font-size: 2.5em !important; }
     main .pt-5 { padding-top: 1.75em !important; } 
-    main .mt-5 { margin-top: 1.25em !important; margin-bottom: 1.25em !important; }
+    main .mt-5 { margin-top: 1.25em !important; }
     main .py-5 { padding-top: 1.25em!important; padding-bottom: 1.25em!important; }        
     .txtVision p, .txtVersiculo p { font-size: 1.25em; }
     
     /* Menú de opciones */
-    .row.mt-5 { margin-top: 1.75em !important; margin-bottom: 1.75em !important; }
+    .row.mt-5 { margin-top: 1.75em !important; }
     .card-header { font-size: 2.5em !important; }
     .card-title { font-size: 1.25em !important; }
     .card-text { font-size: 0.75em !important; }
@@ -212,12 +212,12 @@ main .py-5 { padding-top: 2.25em !important; padding-bottom: 2.25em !important; 
     main .vh-100 { height: 60vh !important; }
     main .display-3 { font-size: 2.5em !important; }
     main .pt-5 { padding-top: 1.5em !important; } 
-    main .mt-5 { margin-top: 1em !important; margin-bottom: 1em !important; }     
+    main .mt-5 { margin-top: 1em !important; }     
     main .py-5 { padding-top: 1em!important; padding-bottom: 1em!important; }        
     .txtVision p, .txtVersiculo p { font-size: 1.25em; }
     
     /* Menú de opciones */
-    .row.mt-5 { margin-top: 1.5em !important; margin-bottom: 1.5em !important; }
+    .row.mt-5 { margin-top: 1.5em !important; }
     .card-header { font-size: 2.5em !important; }
     .card-title { font-size: 1.25em !important; }
     .card-text { font-size: 0.75em !important; }
@@ -249,12 +249,12 @@ main .py-5 { padding-top: 2.25em !important; padding-bottom: 2.25em !important; 
     main .vh-100 { height: 50vh !important; }
     main .display-3 { font-size: 2em !important; }
     main .pt-5 { padding-top: 1.25em !important; } 
-    main .mt-5 { margin-top: 0.75em !important; margin-bottom: 0.75em !important; } 
+    main .mt-5 { margin-top: 0.75em !important; } 
     main .py-5 { padding-top: 0.75em!important; padding-bottom: 0.75em!important; }    
     .txtVision p, .txtVersiculo p { font-size: 1em; }
     
     /* Menú de opciones */
-    .row.mt-5 { margin-top: 1.25em !important; margin-bottom: 1.25em !important; }
+    .row.mt-5 { margin-top: 1.25em !important; }
     .card-header { font-size: 2.5em !important; }
     .card-title { font-size: 1.25em !important; }
     .card-text { font-size: 0.75em !important; }
@@ -286,12 +286,12 @@ main .py-5 { padding-top: 2.25em !important; padding-bottom: 2.25em !important; 
     main .vh-100 { height: 27vh !important; }
     main .display-3 { font-size: 2em !important; }
     main .pt-5 { padding-top: 1em !important; }
-    main .mt-5 { margin-top: 0.5em !important; margin-bottom: 0.5em !important; } 
+    main .mt-5 { margin-top: 0.5em !important; } 
     main .py-5 { padding-top: 0.5em !important; padding-bottom: 0.5em !important; }    
     .txtVision p, .txtVersiculo p { font-size: 1em; }
     
     /* Menú de opciones */
-    .row.mt-5 { margin-top: 1em !important; margin-bottom: 1em !important; }
+    .row.mt-5 { margin-top: 1em !important; }
     .card-header { font-size: 2.5em !important; }
     .card-title { font-size: 1.25em !important; }
     .card-text { font-size: 0.75em !important; }
