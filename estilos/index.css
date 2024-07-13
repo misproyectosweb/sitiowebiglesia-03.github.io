@@ -283,7 +283,7 @@ main .py-5 { padding-top: 2.25em !important; padding-bottom: 2.25em !important; 
     .encabezado .p-4 { padding: 0.75em !important; }
     
     /* Sección principal */
-    main .vh-100 { height: 35vh !important; }
+    main .vh-100 { height: 27vh !important; }
     main .display-3 { font-size: 2em !important; }
     main .pt-5 { padding-top: 1em !important; }
     main .mt-5 { margin-top: 0.5em !important; margin-bottom: 0.5em !important; } 
