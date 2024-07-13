@@ -34,21 +34,19 @@ div.btnMenu.pb-3 { padding-bottom: 1em !important; }
 li.nav-item.mx-5 { margin-left: 2em !important; margin-right: 2em !important; }
 
 /* Sección de noticias */
-.contenido { max-width: 80% !important; }
-
-/* Cuerpo del documento */
 .imgFondoAzul { background-image: url('../imagenes/fondoAzul.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center; }
-
+.contenido { max-width: 90% !important; }
+.m-2 { margin: 0.5em !important; }
+.mb-0.pt-3.font-weight-bold { padding-top: 1em !important; }
 h2 { font-size: 2em !important; }
-h3 { font-size: 1.75em !important; }
-hr { width: 100%; border-top: 0.125em solid rgba(181,154,71,0.9)!important; } 
+p { font-size: 0.75em; }
 .icono { font-size: 2.5em; }
-p { font-size: 90%; }
-.img-fluid { width: 70%; }
-.card { width: 95%; }
-.card.my-3 { margin: 1em !important; }
-.w-50 { width: 20% !important; }
-.btn { padding: 0.75em; }
+.row.my-5 { margin-top: 2.5em !important; margin-bottom: 2.5em !important; }
+h3 { font-size: 1.5em !important; }
+h5 { font-size: 1.25em !important; }
+h6 { font-size: 1em !important; }
+.card { width: 95% !important; }
+.card-body .btn { font-size: 1em !important; }
 
 /********************* Media queries *********************/
 
@@ -70,19 +68,19 @@ p { font-size: 90%; }
     li.nav-item.mx-5 { margin-left: 1.75em !important; margin-right: 1.75em !important; }
     
     /* Sección de noticias */
-    .contenido { max-width: 85%!important; }
-    
-    /* Cuerpo del documento */
-    h2 { font-size: 2em!important; }    
-    h3 { font-size: 1.75em!important; }
-    hr { width: 100%; border-top: 0.125em solid rgba(181,154,71,0.9)!important; }
+    .contenido { max-width: 90%!important; }    
+    .m-2 { margin: 0.5em !important; }
+    .mb-0.pt-3.font-weight-bold { padding-top: 0.75em !important; }
+    h2 { font-size: 1.5em !important; }
+    p { font-size: 0.75em; }
     .icono { font-size: 2.5em; }
-    p { font-size: 90%; }
-    .img-fluid { width: 70%; }
-    .card { width: 95%; }
-    .card.my-3 { margin: 1em !important; }
-    .w-50 { width: 20% !important; }
-    .btn { padding: 0.75em; }
+    .row.my-5 { margin-top: 2.5em !important; margin-bottom: 2.5em !important; }
+    h3 { font-size: 1.5em !important; }
+    h5 { font-size: 1.25em !important; }
+    h6 { font-size: 1em !important; }
+    .card { width: 95% !important; }
+    .card-body .btn { font-size: 1em !important; }
+    
 }
 
 /* Estilo para dispositivos con tamaño de pantalla mayor a 1200px y menor que 1424px */
@@ -103,19 +101,18 @@ p { font-size: 90%; }
     li.nav-item.mx-5 { margin-left: 1.25em !important; margin-right: 1.25em !important; }
     
     /* Sección de noticias */
-    .contenido { max-width: 85% !important; }
-    
-    /* Cuerpo del documento */    
-    h2 { font-size: 2em !important; }    
-    h3 { font-size: 1.75em !important; }
-    hr { width: 100%; border-top: 0.125em solid rgba(181,154,71,0.9)!important; }
-    .icono { font-size: 2.5em; }
-    p { font-size: 90%; }
-    .img-fluid { width: 70%; }
-    .card { width: 95%; }
-    .card.my-3 { margin: 1em !important; }
-    .w-50 { width: 20% !important; }
-    .btn { padding: 0.75em; }
+    .contenido { max-width: 90% !important; }
+    .m-2 { margin: 0.5em !important; }
+    .mb-0.pt-3.font-weight-bold { padding-top: 0.75em !important; }
+    h2 { font-size: 1.5em !important; }
+    p { font-size: 0.75em; }
+    .icono { font-size: 2em; }
+    .row.my-5 { margin-top: 2.25em !important; margin-bottom: 2.25em !important; }
+    h3 { font-size: 1.25em !important; }
+    h5 { font-size: 1em !important; }
+    h6 { font-size: 0.75em !important; }
+    .card { width: 95% !important; }
+    .card-body .btn { font-size: 0.75em !important; }
 }
 
 /* Estilo para dispositivos con tamaño de pantalla mayor a 992px y menor que 1200px */
@@ -136,19 +133,18 @@ p { font-size: 90%; }
     li.nav-item.mx-5 { margin-left: 1em!important; margin-right: 1em!important; }
     
     /* Sección de noticias */
-    .contenido { max-width: 85%!important; }
-    
-    /* Cuerpo del documento */    
-    h2 { font-size: 2em!important; }        
-    h3 { font-size: 1.5em!important; }
-    hr { width: 100%; border-top: 0.125em solid rgba(181,154,71,0.9)!important; } 
-    .icono { font-size: 2.5em; }
-    p { font-size: 85%; }
-    .img-fluid { width: 70%; }
-    .card { width: 95%; }
-    .card.my-3 { margin: 0.75em !important; }
-    .w-50 { width: 30% !important; }
-    .btn { padding: 0.75em; }
+    .contenido { max-width: 90% !important; }
+    .m-2 { margin: 0.5em !important; }
+    .mb-0.pt-3.font-weight-bold { padding-top: 0.75em !important; }
+    h2 { font-size: 1.5em !important; }
+    p { font-size: 0.75em; }
+    .icono { font-size: 2em; }
+    .row.my-5 { margin-top: 2em !important; margin-bottom: 2em !important; }
+    h3 { font-size: 1.25em !important; }
+    h5 { font-size: 1em !important; }
+    h6 { font-size: 0.75em !important; }
+    .card { width: 100% !important; }
+    .card-body .btn { font-size: 0.75em !important; }      
 }
 
 /* Estilo para dispositivos con tamaño de pantalla mayor a 768px y menor que 992px */
@@ -169,22 +165,21 @@ p { font-size: 90%; }
     li.nav-item.mx-5 { margin-left: 0.75em!important; margin-right: 0.75em!important; }
     
     /* Sección de noticias */
-    .contenido { max-width: 90%!important; border: 0.0625em solid #b59a47; }
-    
-    /* Cuerpo del documento */
-    h2 { font-size: 1.75em!important; }
-    h3 { font-size: 1.25em!important; }
-    hr { width: 100%; border-top: 0.125em solid rgba(181,154,71,0.9)!important; } 
-    .icono { font-size: 2em; }
-    p { font-size: 80%; }
-    .img-fluid { width: 70%; }
-    .card { width: 95%; }
-    .card.my-3 { margin: 0.5em !important; }
-    .w-50 { width: 30% !important; }
-    .btn { padding: 0.75em; }
+    .contenido { max-width: 90% !important; }
+    .m-2 { margin: 0.25em !important; }
+    .mb-0.pt-3.font-weight-bold { padding-top: 0.75em !important; }
+    h2 { font-size: 1.25em !important; }
+    p { font-size: 0.75em; }
+    .icono { font-size: 1.5em; }
+    .row.my-5 { margin-top: 1.75em !important; margin-bottom: 1.75em !important; }
+    h3 { font-size: 1em !important; }
+    h5 { font-size: 1em !important; }
+    h6 { font-size: 0.75em !important; }
+    .card { width: 100% !important; }
+    .card-body .btn { font-size: 0.75em !important; }     
 }
 
-/* Estilo para dispositivos con tamaño de pantalla mayor a 576px y menor que 768px */
+/* Estilos para dispositivos con tamaño de pantalla mayor a 576px y menor que 768px */
 @media screen and (min-width: 576px) and (max-width: 767.98px) {
     
     /* Encabezado */
@@ -202,22 +197,21 @@ p { font-size: 90%; }
     li.nav-item.mx-5 { margin-left: 0.75em !important; margin-right: 0.75em !important; }
     
     /* Sección de noticias */
-    .contenido { max-width: 90%!important; border: 0.0625em solid #b59a47; }
-    
-    /* Cuerpo del documento */    
-    h2 { font-size: 1.5em !important; }
-    h3 { font-size: 1.25em !important; }
-    hr { width: 100%; border-top: 0.125em solid rgba(181,154,71,0.9)!important; } 
-    .icono { font-size: 2em; }
-    p { font-size: 75%; }
-    .img-fluid { width: 70%; }
-    .card { width: 95%; }
-    .card.my-3 { margin: 0.5em !important; }
-    .w-50 { width: 40% !important; }
-    .btn { padding: 0.75em; }
+    .contenido { max-width: 90% !important; }
+    .m-2 { margin: 0.25em !important; }
+    .mb-0.pt-3.font-weight-bold { padding-top: 0.5em !important; }
+    h2 { font-size: 1.25em !important; }
+    p { font-size: 0.5em; }
+    .icono { font-size: 1.5em; }
+    .row.my-5 { margin-top: 1.5em !important; margin-bottom: 1.5em !important; }
+    h3 { font-size: 1em !important; }
+    h5 { font-size: 0.75em !important; }
+    h6 { font-size: 0.5em !important; }
+    .card { width: 100% !important; }
+    .card-body .btn { font-size: 0.5em !important; } 
 }
 
-/* Estilo para dispositivos con tamaño de pantalla menor que 576px */
+/* Estilos para dispositivos con tamaño de pantalla menor que 576px */
 @media screen and (min-width: 481px) and (max-width: 575.98px) {
     
     /* Encabezado */
@@ -235,22 +229,20 @@ p { font-size: 90%; }
     li.nav-item.mx-5 { margin-left: 0.5em !important; margin-right: 0.5em !important; }
     
     /* Sección de noticias */
-    .contenido { max-width: 90%!important; border: 0.0625em solid #b59a47; }
-    
-    /* Cuerpo del documento */
-    h2 { font-size: 1.5em!important; }
-    h3 { font-size: 1.25em!important; }
-    hr { width: 100%; border-top: 0.125em solid rgba(181,154,71,0.9)!important; }
-    .icono { font-size: 2em; }
-    p { font-size: 75%; }
-    .img-fluid { width: 70%; }
-    .card { width: 95%; }
-    .card.my-3 { margin: 0.5em !important; }
-    .w-50 { width: 50% !important; }
-    .btn { padding: 0.75em; }
+    .contenido { max-width: 90% !important; }
+    .m-2 { margin: 0.25em !important; }
+    .mb-0.pt-3.font-weight-bold { padding-top: 0.5em !important; }
+    h2 { font-size: 1em !important; }
+    p { font-size: 0.5em; }
+    .icono { font-size: 1em; }
+    .row.my-5 { margin-top: 1.25em !important; margin-bottom: 1.25em !important; }
+    h3 { font-size: 0.75em !important; }
+    h5 { font-size: 0.75em !important; }
+    h6 { font-size: 0.5em !important; }        
+    .card-body .btn { font-size: 0.5em !important; }   
 }
 
-/* Estilo para dispositivos con tamaño de pantalla menor que 480px */
+/* Estilos para dispositivos con tamaño de pantalla menor que 480px */
 @media screen and (max-width: 480px) {
     
     /* Encabezado */
@@ -266,19 +258,17 @@ p { font-size: 90%; }
     div.btnMenu.mr-5 { margin-right: 1.5em !important; }
     div.btnMenu.pb-3 { padding-bottom: 0 !important; }
     li.nav-item.mx-5 { margin-left: 0.5em !important; margin-right: 0.5em !important; }
-    
+        
     /* Sección de noticias */
-    .contenido { max-width: 90%!important; border: 0.0625em solid #b59a47; }
-    
-    /* Cuerpo del documento */
-    h2 { font-size: 1.5em!important; }
-    h3 { font-size: 1.25em!important; }
-    hr { width: 100%; border-top: 0.125em solid rgba(181,154,71,0.9)!important; }
-    .icono { font-size: 2em; }
-    p { font-size: 70%; }
-    .img-fluid { width: 70%; }
-    .card { width: 95%; }
-    .card.my-3 { margin: 0.5em !important; }
-    .w-50 { width: 50% !important; }
-    .btn { padding: 0.75em; }
+    .contenido { max-width: 90% !important; }
+    .m-2 { margin: 0.25em !important; }
+    .mb-0.pt-3.font-weight-bold { padding-top: 0.5em !important; }
+    h2 { font-size: 1em !important; }
+    .icono { font-size: 1em; } 
+    p { font-size: 0.5em; }     
+    .row.my-5 { margin-top: 1em !important; margin-bottom: 1em !important; }
+    h3 { font-size: 0.75em !important; }
+    h5 { font-size: 0.75em !important; }
+    h6 { font-size: 0.5em !important; }          
+    .card-body .btn { font-size: 0.5em !important; }    
 }

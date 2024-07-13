@@ -35,16 +35,14 @@ div.btnMenu i { font-size: 2em; }
 div.btnMenu.mr-5 { margin-right: 3em!important; }
 div.btnMenu.pb-3 { padding-bottom: 1em!important; }
 
-/* Sección de imformación */
-.contenido { max-width: 80%!important; }
-
-/* Cuerpo del documento  */
-h2 { font-size: 2em!important; }
-hr { width: 100%; border-top: 0.125em solid rgba(181,154,71,0.9)!important; }    
+/* Sección de enunciados */
+.contenido { max-width: 80% !important; }
+.m-2 { margin: 0.5em !important; }
+.mb-0.pt-3.font-weight-bold { padding-top: 1em !important; }
+h2 { font-size: 2em !important; }
+.col-12.p-3 { padding: 0.75em !important; }
 p { font-size: 1em; }
-.mb-0.pt-4.font-weight-bold { padding-top: 1em!important; }
-figure { height: 20%; }
-figure img { border: 0.125em solid #b59a47; } 
+.img-fluid.w-50 { width: 20% !important; } 
 
 .imgFondoRojo { background-image: url('../imagenes/fondoRojo.jpg'); }
 .imgFondoMagenta { background-image: url('../imagenes/fondoMagenta.jpg'); }
@@ -52,7 +50,7 @@ figure img { border: 0.125em solid #b59a47; }
 .imgFondoCafe { background-image: url('../imagenes/fondoCafe.jpg'); }
 .imgFondoAzul { background-image: url('../imagenes/fondoAzul.jpg'); }
 .imgFondoVerdeOlivo { background-image: url('../imagenes/fondoVerdeOlivo.jpg'); }
-.imgFondoRojo, .imgFondoMagenta, .imgFondoMorado, .imgFondoCafe, .imgFondoAzul, .imgFondoVerdeOlivo { background-size: cover; background-repeat: no-repeat; }
+.imgFondoRojo, .imgFondoMagenta, .imgFondoMorado, .imgFondoCafe, .imgFondoAzul, .imgFondoVerdeOlivo { background-size: cover; background-repeat: no-repeat; min-height: 100vh; }
 
 /********************* Media queries *********************/
 
@@ -73,16 +71,14 @@ figure img { border: 0.125em solid #b59a47; }
     div.btnMenu.mr-5 { margin-right: 2.5em!important; }
     div.btnMenu.pb-3 { padding-bottom: 0.75em!important; }
     
-    /* Sección de noticias */
-    .contenido { max-width: 85%!important; }
-    
-    /* Cuerpo del documento  */
-    h2 { font-size: 1.75em!important; }
-    hr { width: 100%; border-top: 0.125em solid rgba(181,154,71,0.9)!important; }    
-    p { font-size: 90%; }
-    .mb-0.pt-4.font-weight-bold { padding-top: 1em!important; }
-    figure { height: 20%; }
-    figure img { border: 0.125em solid #b59a47; } 
+    /* Sección de enunciados */
+    .contenido { max-width: 90% !important; }
+    .m-2 { margin: 0.5em !important; }
+    .mb-0.pt-3.font-weight-bold { padding-top: 1em !important; }
+    h2 { font-size: 1.75em !important; }
+    .col-12.p-3 { padding: 0.75em !important; }
+    p { font-size: 1em; }
+    .img-fluid.w-50 { width: 20% !important; }     
 }
 
 /* Estilos para dispositivos con tamaño de pantalla mayor a 1200px y menor que 1424px */
@@ -103,16 +99,14 @@ figure img { border: 0.125em solid #b59a47; }
     div.btnMenu.mr-5 { margin-right: 2.5em!important; }
     div.btnMenu.pb-3 { padding-bottom: 0.75em!important; }
     
-    /* Sección de noticias */
-    .contenido { max-width: 85%!important; }
-    
-    /* Cuerpo del documento  */
-    h2 { font-size: 1.75em!important; }
-    hr { width: 100%; border-top: 0.125em solid rgba(181,154,71,0.9)!important; }    
-    p { font-size: 80%; }
-    .mb-0.pt-4.font-weight-bold { padding-top: 1em!important; }
-    figure { height: 20%; }
-    figure img { border: 0.125em solid #b59a47; } 
+    /* Sección de enunciados */
+    .contenido { max-width: 90% !important; }
+    .m-2 { margin: 0.5em !important; }
+    .mb-0.pt-3.font-weight-bold { padding-top: 0.75em !important; }
+    h2 { font-size: 1.5em !important; }
+    .col-12.p-3 { padding: 0.5em !important; }
+    p { font-size: 1em; }
+    .img-fluid.w-50 { width: 25% !important; } 
 }
 
 /* Estilos para dispositivos con tamaño de pantalla mayor a 992px y menor que 1200px */
@@ -133,16 +127,14 @@ figure img { border: 0.125em solid #b59a47; }
     div.btnMenu.mr-5 { margin-right: 2em!important; }
     div.btnMenu.pb-3 { padding-bottom: 0.5em!important; }
     
-    /* Sección de noticias */
-    .contenido { max-width: 85%!important; }
-    
-    /* Cuerpo del documento  */
-    h2 { font-size: 1.5em!important; }
-    hr { width: 100%; border-top: 0.125em solid rgba(181,154,71,0.9)!important; }    
-    p { font-size: 75%; }
-    .mb-0.pt-4.font-weight-bold { padding-top: 0.75em!important; }
-    figure { height: 20%; }
-    figure img { border: 0.125em solid #b59a47; }    
+    /* Sección de enunciados */
+    .contenido { max-width: 90% !important; }
+    .m-2 { margin: 0.5em !important; }
+    .mb-0.pt-3.font-weight-bold { padding-top: 0.75em !important; }
+    h2 { font-size: 1.5em !important; }
+    .col-12.p-3 { padding: 0.5em !important; }
+    p { font-size: 0.75em; }
+    .img-fluid.w-50 { width: 25% !important; } 
 }
 
 /* Estilos para dispositivos con tamaño de pantalla mayor a 768px y menor que 992px */
@@ -163,16 +155,14 @@ figure img { border: 0.125em solid #b59a47; }
     div.btnMenu.mr-5 { margin-right: 2em!important; }
     div.btnMenu.pb-3 { padding-bottom: 0.5em!important; }
     
-    /* Sección de noticias */
-    .contenido { max-width: 90%!important; }
-    
-    /* Cuerpo del documento  */
-    h2 { font-size: 1.5em!important; }
-    hr { width: 100%; border-top: 0.125em solid rgba(181,154,71,0.9)!important; }    
-    p { font-size: 70%; }
-    .mb-0.pt-4.font-weight-bold { padding-top: 0.75em!important; }
-    figure { height: 20%; }
-    figure img { border: 0.125em solid #b59a47; }    
+    /* Sección de enunciados */
+    .contenido { max-width: 90% !important; }
+    .m-2 { margin: 0.25em !important; }
+    .mb-0.pt-3.font-weight-bold { padding-top: 0.75em !important; }
+    h2 { font-size: 1.25em !important; }
+    .col-12.p-3 { padding: 0.25em !important; }
+    p { font-size: 0.75em; }
+    .img-fluid.w-50 { width: 30% !important; }  
 }
 
 /* Estilos para dispositivos con tamaño de pantalla mayor a 576px y menor que 768px */
@@ -193,16 +183,14 @@ figure img { border: 0.125em solid #b59a47; }
     div.btnMenu.mr-5 { margin-right: 1.5em!important; }
     div.btnMenu.pb-3 { padding-bottom: 0!important; }
     
-    /* Sección de noticias */
-    .contenido { max-width: 90%!important; }
-    
-    /* Cuerpo del documento  */    
-    h2 { font-size: 1.25em!important; }
-    hr { width: 100%; border-top: 0.125em solid rgba(181,154,71,0.9)!important; }    
-    p { font-size: 65%; }
-    .mb-0.pt-4.font-weight-bold { padding-top: 0.5em!important; }
-    figure { height: 20%; }
-    figure img { border: 0.125em solid #b59a47; }
+    /* Sección de enunciados */
+    .contenido { max-width: 90% !important; }
+    .m-2 { margin: 0.25em !important; }
+    .mb-0.pt-3.font-weight-bold { padding-top: 0.5em !important; }
+    h2 { font-size: 1.25em !important; }
+    .col-12.p-3 { padding: 0.25em !important; }
+    p { font-size: 0.75em; }
+    .img-fluid.w-50 { width: 30% !important; }
 }
 
 /* Estilo para dispositivos con tamaño de pantalla mayor a 481px y menor que 575.98px */
@@ -210,9 +198,9 @@ figure img { border: 0.125em solid #b59a47; }
     
     /* Encabezado */
     header a .img-fluid { max-width: 55%; }
-    header .p-4 { padding: 0.75em!important; }        
-    li.nav-item.mx-5 { margin-left: 0!important; margin-right: 0!important; }
-    li.nav-item.px-1 { padding-left: 0!important; padding-right: 0!important; }
+    header .p-4 { padding: 0.75em !important; }        
+    li.nav-item.mx-5 { margin-left: 0 !important; margin-right: 0 !important; }
+    li.nav-item.px-1 { padding-left: 0 !important; padding-right: 0 !important; }
     
     /* Menú */
     .menu ul li { font-size: 80%; }
@@ -220,19 +208,18 @@ figure img { border: 0.125em solid #b59a47; }
     
     /* Botón del menú */
     div.btnMenu i { font-size: 1.5em; }
-    div.btnMenu.mr-5 { margin-right: 1.5em!important; }
-    div.btnMenu.pb-3 { padding-bottom: 0!important; }
+    div.btnMenu.mr-5 { margin-right: 1.5em !important; }
+    div.btnMenu.pb-3 { padding-bottom: 0 !important; }
     
-    /* Sección de noticias */
-    .contenido { max-width: 90%!important; border: 0.0625em solid #b59a47; }
-       
-    /* Cuerpo del documento  */    
-    h2 { font-size: 1.25em!important; }
-    hr { width: 100%; border-top: 0.125em solid rgba(181,154,71,0.9)!important; }    
-    p { font-size: 60%; }
-    .mb-0.pt-4.font-weight-bold { padding-top: 0.5em!important; }
-    figure { height: 20%; }
-    figure img { border: 0.125em solid #b59a47; }
+    /* Sección de enunciados */
+    .contenido { max-width: 90% !important; }
+    .m-2 { margin: 0.25em !important; }
+    .mb-0.pt-3.font-weight-bold { padding-top: 0.5em !important; }
+    h2 { font-size: 1em !important; }
+    .col-12.p-3 { padding: 0 !important; }
+    p { font-size: 0.5em; }
+    .img-fluid.w-50 { width: 35% !important; }
+    
 }
 
 /* Estilo para dispositivos con tamaño de pantalla menor que 480px */
@@ -240,7 +227,7 @@ figure img { border: 0.125em solid #b59a47; }
     
     /* Encabezado */
     .encabezado .img-fluid { max-width: 45%; }
-    .encabezado .p-4 { padding: 0.75em!important; }
+    .encabezado .p-4 { padding: 0.75em !important; }
     
     /* Menú */
     .menu ul li { font-size: 80%; }
@@ -248,17 +235,15 @@ figure img { border: 0.125em solid #b59a47; }
     
     /* Botón del menú */
     div.btnMenu i { font-size: 1.5em; }
-    div.btnMenu.mr-5 { margin-right: 1.5em!important; }
-    div.btnMenu.pb-3 { padding-bottom: 0!important; }
+    div.btnMenu.mr-5 { margin-right: 1.5em !important; }
+    div.btnMenu.pb-3 { padding-bottom: 0 !important; }
     
-    /* Sección de noticias */
-    .contenido { max-width: 90%!important; border: 0.0625em solid #b59a47; }
-       
-    /* Cuerpo del documento  */    
-    h2 { font-size: 1.25em!important; }
-    hr { width: 100%; border-top: 0.125em solid rgba(181,154,71,0.9)!important; }    
-    p { font-size: 60%; }
-    .mb-0.pt-4.font-weight-bold { padding-top: 0.5em!important; }
-    figure { height: 20%; }
-    figure img { border: 0.125em solid #b59a47; }
+    /* Sección de enunciados */
+    .contenido { max-width: 90% !important; }
+    .m-2 { margin: 0.25em !important; }
+    .mb-0.pt-3.font-weight-bold { padding-top: 0.5em !important; }
+    h2 { font-size: 1em !important; }
+    .col-12.p-3 { padding: 0 !important; }
+    p { font-size: 0.5em; }
+    .img-fluid.w-50 { width: 35% !important; }
 }

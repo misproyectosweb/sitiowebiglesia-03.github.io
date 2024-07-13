@@ -21,23 +21,28 @@ and open the template in the editor.
 /* Encabezado */
 .encabezado { background: linear-gradient(to right, var(--colorWhitesmoke) 0%, var(--colorDorado) 100%); }
 .encabezado .img-fluid { max-width: 85%; }
+.encabezado .p-4 { padding: 1.5em !important; }
 
 /* Imagen de fondo */
-.fondo { background-image: url('../imagenes/fondo_1.jpg'); }
-.colorFondo { background: rgba(0,0,0,0.3); }
+.fondo { background-image: url('../imagenes/imgFondo.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center; }
+.colorFondo { background: rgba(0,0,0,0.4); }
 
 /* Sección principal */
-.vh-100 { height: 100vh!important; } 
-.titulos { font-family: 'Bree Serif', serif; }
-main .my-5 { margin-top: 2em!important; margin-bottom: 1em!important; }
-main .p-4 { padding: 1.5em!important; }
-main .display-3 { font-size: 4.5em!important; } 
-main .w-75 { width: 55% !important; }
+main .vh-100 { height: 100vh !important; } 
+main .display-3 { font-family: 'Bree Serif', serif; font-size: 4em !important; } 
+main .pt-5 { padding-top: 2.75em !important; } 
+main .mt-5 { margin-top: 2.25em !important; margin-bottom: 2.25em !important; }
+main .py-5 { padding-top: 2.25em !important; padding-bottom: 2.25em !important; }
+
 .txtVision p, .txtVersiculo p { font-family: 'Noto Serif', serif; font-size: 2.25em; line-height: 1.75em; }
 .bordes { border-top: 0.5em double var(--colorAzul); border-bottom: 0.5em double var(--colorAzul); }
 
 /* Menú de opciones */
-.card { margin-bottom: 1.5em !important; font-size: 80%; width: 18rem !important; }
+.row.mt-5 { margin-top: 2.75em !important; margin-bottom: 2.75em !important; }
+.card-header { font-size: 3em !important; }
+.card-title { font-size: 1.5em !important; }
+.card-text { font-size: 1em !important; }
+.btn-lg { font-size: 1.25em !important; }
 
 /* Imagenes movibles */
 .parallax-seccion-1 { background-image: url('../imagenes/fondoParallax_1.jpg'); background-attachment: fixed; }
@@ -68,16 +73,19 @@ main .w-75 { width: 55% !important; }
     .encabezado .p-4 { padding: 1.5em!important; }
     
     /* Sección principal */
-    main .my-5 { margin-top: 2em!important; margin-bottom: 1em!important; }
-    main .py-5 { padding-top: 2em!important; padding-bottom: 1em!important; }
-    main .display-3 { font-size: 4em!important; }
-    main .w-75 { width: 55% !important; }
+    main .vh-100 { height: 100vh !important; }
+    main .display-3 { font-size: 3.5em!important; }
+    main .pt-5 { padding-top: 2.5em !important; } 
+    main .mt-5 { margin-top: 2em !important; margin-bottom: 2em !important; }
+    main .py-5 { padding-top: 2em !important; padding-bottom: 2em !important; }       
     .txtVision p, .txtVersiculo p { font-size: 2em; }   
     
     /* Menú de opciones */
-    .card { margin-bottom: 1.5em !important; font-size: 80%; width: 18em !important; }
+    .row.mt-5 { margin-top: 2.5em !important; margin-bottom: 2.5em !important; }
+    .card-header { font-size: 3em !important; }
     .card-title { font-size: 1.5em !important; }
-    .btn-lg { font-size: 1.5em !important; }
+    .card-text { font-size: 1em !important; }
+    .btn-lg { font-size: 1.25em !important; }
     
     /* Pie de página */    
     footer .w-50 { width: 60% !important; }
@@ -95,17 +103,19 @@ main .w-75 { width: 55% !important; }
     .encabezado .p-4 { padding: 1.25em!important; }
     
     /* Sección principal */
-    main .vh-100 { height: 100vh!important; } 
-    main .my-5 { margin-top: 2em!important; margin-bottom: 1em!important; }
-    main .py-5 { padding-top: 2em!important; padding-bottom: 1em!important; }
-    main .w-75 { width: 55% !important; }
-    main .display-3 { font-size: 3.25em!important; }
+    main .vh-100 { height: 100vh !important; }
+    main .display-3 { font-size: 3.5em!important; }
+    main .pt-5 { padding-top: 2.25em !important; } 
+    main .mt-5 { margin-top: 1.75em !important; margin-bottom: 1.75em !important; }
+    main .py-5 { padding-top: 1.75em !important; padding-bottom: 1.75em !important; }
     .txtVision p, .txtVersiculo p { font-size: 2em; } 
     
     /* Menú de opciones */
-    .card { margin-bottom: 1.5em !important; font-size: 80%; width: 18em !important; }
+    .row.mt-5 { margin-top: 2.25em !important; margin-bottom: 2.25em !important; }
+    .card-header { font-size: 3em !important; }
     .card-title { font-size: 1.5em !important; }
-    .btn-lg { font-size: 1.5em !important; }
+    .card-text { font-size: 1em !important; }
+    .btn-lg { font-size: 1.25em !important; }
     
     /* Pie de página */    
     footer .w-50 { width: 70% !important; }
@@ -123,17 +133,20 @@ main .w-75 { width: 55% !important; }
     .encabezado .p-4 { padding: 1.25em!important; }
     
     /* Sección principal */      
-    main .vh-100 { height: 80vh!important; } 
-    main .my-5 { margin-top: 1.5em!important; margin-bottom: 1.5em!important; }
-    main .py-5 { padding-top: 1.5em!important; padding-bottom: 1.5em!important; }
-    main .w-75 { width: 45% !important; }
-    main .display-3 { font-size: 2.75em!important; }
+    main .vh-100 { height: 80vh !important; }
+    main .display-3 { font-size: 3.5em !important; }
+    main .pt-5 { padding-top: 2em !important; } 
+    main .mt-5 { margin-top: 1.5em !important; margin-bottom: 1.5em !important; }
+    main .py-5 { padding-top: 1.5em!important; padding-bottom: 1.5em!important; }    
+    
     .txtVision p, .txtVersiculo p { font-size: 1.5em; }
     
     /* Menú de opciones */
-    .card { margin-bottom: 1.5em !important; font-size: 80%; width: 15em !important; }
+    .row.mt-5 { margin-top: 2em !important; margin-bottom: 2em !important; }
+    .card-header { font-size: 3em !important; }
     .card-title { font-size: 1.5em !important; }
-    .btn-lg { font-size: 1.5em !important; }
+    .card-text { font-size: 1em !important; }
+    .btn-lg { font-size: 1.25em !important; }
     
     /* Carrusel de imágenes */
     .carousel-control-next, .carousel-control-prev { top: -3em !important; }
@@ -158,17 +171,19 @@ main .w-75 { width: 55% !important; }
     .encabezado .p-4 { padding: 1.25em!important; }
     
     /* Sección principal */    
-    main .vh-100 { height: 65vh!important; }
-    main .my-5 { margin-top: 1em!important; margin-bottom: 1em!important; }
-    main .py-5 { padding-top: 1em!important; padding-bottom: 1em!important; }
-    main .w-75 { width: 45% !important; }
-    main .display-3 { font-size: 2.5em!important; }
+    main .vh-100 { height: 70vh !important; }
+    main .display-3 { font-size: 2.5em !important; }
+    main .pt-5 { padding-top: 1.75em !important; } 
+    main .mt-5 { margin-top: 1.25em !important; margin-bottom: 1.25em !important; }
+    main .py-5 { padding-top: 1.25em!important; padding-bottom: 1.25em!important; }        
     .txtVision p, .txtVersiculo p { font-size: 1.25em; }
     
     /* Menú de opciones */
-    .card { margin-bottom: 1em !important; font-size: 70%; width: 14.5em !important; }
-    .card-title { font-size: 1.5em !important; }
-    .btn-lg { font-size: 1.5em !important; }
+    .row.mt-5 { margin-top: 1.75em !important; margin-bottom: 1.75em !important; }
+    .card-header { font-size: 2.5em !important; }
+    .card-title { font-size: 1.25em !important; }
+    .card-text { font-size: 0.75em !important; }
+    .btn-lg { font-size: 1em !important; }
     
     /* Carrusel de imágenes */
     .carousel-control-next, .carousel-control-prev { top: -3em !important; }
@@ -194,17 +209,19 @@ main .w-75 { width: 55% !important; }
     .encabezado .p-4 { padding: 1em!important; }
     
     /* Sección principal */
-    main .vh-100 { height: 57vh!important; }
-    main .my-5 { margin-top: 0.75em!important; margin-bottom: 0.75em!important; }
-    main .py-5 { padding-top: 0.75em!important; padding-bottom: 0.75em!important; }
-    main .w-75 { width: 35% !important; }
-    main .display-3 { font-size: 2.25em!important; }
+    main .vh-100 { height: 60vh !important; }
+    main .display-3 { font-size: 2.5em !important; }
+    main .pt-5 { padding-top: 1.5em !important; } 
+    main .mt-5 { margin-top: 1em !important; margin-bottom: 1em !important; }     
+    main .py-5 { padding-top: 1em!important; padding-bottom: 1em!important; }        
     .txtVision p, .txtVersiculo p { font-size: 1.25em; }
     
     /* Menú de opciones */
-    .card { margin-bottom: 0.75em!important; font-size: 70%; width: 17em !important; }
-    .card-title { font-size: 1.5em !important; }
-    .btn-lg { font-size: 1.5em !important; }   
+    .row.mt-5 { margin-top: 1.5em !important; margin-bottom: 1.5em !important; }
+    .card-header { font-size: 2.5em !important; }
+    .card-title { font-size: 1.25em !important; }
+    .card-text { font-size: 0.75em !important; }
+    .btn-lg { font-size: 1em !important; }
     
     /* Carrusel de imágenes */
     .carousel-control-next, .carousel-control-prev { top: -3em !important; }
@@ -229,17 +246,19 @@ main .w-75 { width: 55% !important; }
     .encabezado .p-4 { padding: 0.75em!important; }
 
     /* Sección principal */
-    main .vh-100 { height: 50vh!important; }
-    main .display-3 { font-size: 2em!important; }
-    main .my-5 { margin-top: 0.5em!important; margin-bottom: 0.5em!important; }
-    main .py-5 { padding-top: 0.5em!important; padding-bottom: 0.5em!important; }
-    main .w-75 { width: 35% !important; }
+    main .vh-100 { height: 50vh !important; }
+    main .display-3 { font-size: 2em !important; }
+    main .pt-5 { padding-top: 1.25em !important; } 
+    main .mt-5 { margin-top: 0.75em !important; margin-bottom: 0.75em !important; } 
+    main .py-5 { padding-top: 0.75em!important; padding-bottom: 0.75em!important; }    
     .txtVision p, .txtVersiculo p { font-size: 1em; }
     
     /* Menú de opciones */
-    .card { margin-bottom: 0.5em !important; font-size: 70%; width: 15em !important; }
+    .row.mt-5 { margin-top: 1.25em !important; margin-bottom: 1.25em !important; }
+    .card-header { font-size: 2.5em !important; }
     .card-title { font-size: 1.25em !important; }
-    .btn-lg { font-size: 1.25em !important; }
+    .card-text { font-size: 0.75em !important; }
+    .btn-lg { font-size: 1em !important; }
     
     /* Carrusel de imágenes */
     .carousel-item .w-50 { width: 60% !important; }
@@ -264,17 +283,19 @@ main .w-75 { width: 55% !important; }
     .encabezado .p-4 { padding: 0.75em !important; }
     
     /* Sección principal */
-    main .vh-100 { height: 44vh!important; }
-    main .display-3 { font-size: 2em!important; }
-    main .my-5 { margin-top: 0.5em!important; margin-bottom: 0.5em!important; }
-    main .py-5 { padding-top: 0.5em!important; padding-bottom: 0.5em!important; }
-    main .w-75 { width: 35% !important; }
+    main .vh-100 { height: 40vh !important; }
+    main .display-3 { font-size: 2em !important; }
+    main .pt-5 { padding-top: 1em !important; }
+    main .mt-5 { margin-top: 0.5em !important; margin-bottom: 0.5em !important; } 
+    main .py-5 { padding-top: 0.5em !important; padding-bottom: 0.5em !important; }    
     .txtVision p, .txtVersiculo p { font-size: 1em; }
     
     /* Menú de opciones */
-    .card { margin-bottom: 0.5em !important; font-size: 70%; width: 18em !important; }
+    .row.mt-5 { margin-top: 1em !important; margin-bottom: 1em !important; }
+    .card-header { font-size: 2.5em !important; }
     .card-title { font-size: 1.25em !important; }
-    .btn-lg { font-size: 1.25em !important; }
+    .card-text { font-size: 0.75em !important; }
+    .btn-lg { font-size: 1em !important; }
     
     /* Carrusel de imágenes */    
     .carousel-item .w-50 { width: 60% !important; }
@@ -288,5 +309,5 @@ main .w-75 { width: 55% !important; }
     .col-4 { padding-right: 0 !important; }
     .col-4 h4 { font-size: 0.6em !important; }    
     .col-4 .txtInfo, .barraInfo { font-size: 0.35em !important; }
-    .list-group-item { padding: 1em!important; }
+    .list-group-item { padding: 1em !important; }
 }

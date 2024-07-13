@@ -11,7 +11,7 @@ $(document).ready(function ()
     {
         $(".btnTexto").bind("click", function ()
         {
-            $(this).text($(this).text() === "Ocultar información" ? "Mostrar información" : "Ocultar información");
+            $(this).text($(this).text() === "Mostrar información" ? "Ocultar información" : "Mostrar información");
             $(this).prev().toggle();
         });
     });
