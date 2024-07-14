@@ -33,8 +33,7 @@ main .display-3 { font-family: 'Bree Serif', serif; font-size: 4em !important; }
 main .pt-5 { padding-top: 2.75em !important; } 
 main .mt-5 { margin-top: 2.25em !important; }
 main .py-5 { padding-top: 2.25em !important; padding-bottom: 2.25em !important; }
-
-.txtVision p, .txtVersiculo p { font-family: 'Noto Serif', serif; font-size: 2.25em; line-height: 1.75em; }
+.txtVision p, .txtVersiculo p { font-family: 'Noto Serif', serif; font-size: 2.5em; line-height: 1.75em; }
 .bordes { border-top: 0.5em double var(--colorAzul); border-bottom: 0.5em double var(--colorAzul); }
 
 /* Menú de opciones */
@@ -59,6 +58,7 @@ main .py-5 { padding-top: 2.25em !important; padding-bottom: 2.25em !important; 
 /* Pie de página */
 .col-sm-4 h4 { font-size: 1em !important; }
 .col-sm-4 .txtInfo, .barraInfo { font-size: 0.75em; }
+.list-group-item { padding: 0.5em !important; }
 
 /* Preloader */
 .contenedorLoader { background: var(--colorAlabaster); position: fixed; top: 0; left: 0; height: 100%; width: 100%; z-index: 100; transition: all 1.5s; }
@@ -78,7 +78,7 @@ main .py-5 { padding-top: 2.25em !important; padding-bottom: 2.25em !important; 
     main .pt-5 { padding-top: 2.5em !important; } 
     main .mt-5 { margin-top: 2em !important; }
     main .py-5 { padding-top: 2em !important; padding-bottom: 2em !important; }       
-    .txtVision p, .txtVersiculo p { font-size: 2em; }   
+    .txtVision p, .txtVersiculo p { font-size: 2.5em; }    
     
     /* Menú de opciones */
     .row.mt-5 { margin-top: 2.5em !important; }
@@ -89,7 +89,7 @@ main .py-5 { padding-top: 2.25em !important; padding-bottom: 2.25em !important; 
     
     /* Pie de página */    
     footer .w-50 { width: 60% !important; }
-    .list-group-item { padding: 1em 0 !important; }
+    .list-group-item { padding: 0.5em !important; }
     
     /* Preloader */
     .contenedorLoader img { width: 20%; }
@@ -108,7 +108,7 @@ main .py-5 { padding-top: 2.25em !important; padding-bottom: 2.25em !important; 
     main .pt-5 { padding-top: 2.25em !important; } 
     main .mt-5 { margin-top: 1.75em !important; }
     main .py-5 { padding-top: 1.75em !important; padding-bottom: 1.75em !important; }
-    .txtVision p, .txtVersiculo p { font-size: 2em; } 
+    .txtVision p, .txtVersiculo p { font-size: 2.25em; }    
     
     /* Menú de opciones */
     .row.mt-5 { margin-top: 2.25em !important; }
@@ -119,7 +119,7 @@ main .py-5 { padding-top: 2.25em !important; padding-bottom: 2.25em !important; 
     
     /* Pie de página */    
     footer .w-50 { width: 70% !important; }
-    .list-group-item { padding: 1em 0 !important; }
+    .list-group-item { padding: 0.5em !important; }
     
     /* Preloader */
     .contenedorLoader img { width: 20%; }
@@ -134,12 +134,11 @@ main .py-5 { padding-top: 2.25em !important; padding-bottom: 2.25em !important; 
     
     /* Sección principal */      
     main .vh-100 { height: 80vh !important; }
-    main .display-3 { font-size: 3.5em !important; }
+    main .display-3 { font-size: 3em !important; }
     main .pt-5 { padding-top: 2em !important; } 
     main .mt-5 { margin-top: 1.5em !important; }
-    main .py-5 { padding-top: 1.5em!important; padding-bottom: 1.5em!important; }    
-    
-    .txtVision p, .txtVersiculo p { font-size: 1.5em; }
+    main .py-5 { padding-top: 1.5em!important; padding-bottom: 1.5em!important; }        
+    .txtVision p, .txtVersiculo p { font-size: 2em; }    
     
     /* Menú de opciones */
     .row.mt-5 { margin-top: 2em !important; }
@@ -157,7 +156,7 @@ main .py-5 { padding-top: 2.25em !important; padding-bottom: 2.25em !important; 
     
     /* Pie de página */
     footer .w-50 { width: 75% !important; }
-    .list-group-item { padding: 1em 0 !important; }
+    .list-group-item { padding: 0.5em !important; }
     
     /* Preloader */
     .contenedorLoader img { width: 25%; }
@@ -172,11 +171,11 @@ main .py-5 { padding-top: 2.25em !important; padding-bottom: 2.25em !important; 
     
     /* Sección principal */    
     main .vh-100 { height: 70vh !important; }
-    main .display-3 { font-size: 2.5em !important; }
-    main .pt-5 { padding-top: 1.75em !important; } 
+    main .display-3 { font-size: 2.75em !important; }
+    main .pt-5 { padding-top: 1.25em !important; } 
     main .mt-5 { margin-top: 1.25em !important; }
     main .py-5 { padding-top: 1.25em!important; padding-bottom: 1.25em!important; }        
-    .txtVision p, .txtVersiculo p { font-size: 1.25em; }
+    .txtVision p, .txtVersiculo p { font-size: 1.75em; }    
     
     /* Menú de opciones */
     .row.mt-5 { margin-top: 1.75em !important; }
@@ -195,7 +194,7 @@ main .py-5 { padding-top: 2.25em !important; padding-bottom: 2.25em !important; 
     
     /* Pie de página */
     .col-sm-4 .txtInfo, .barraInfo { font-size: 0.65em !important; }
-    .list-group-item { padding: 1em 0 !important; }
+    .list-group-item { padding: 0.5em !important; }
     
     /* Preloader */
     .contenedorLoader img { width: 30%; }
@@ -211,10 +210,10 @@ main .py-5 { padding-top: 2.25em !important; padding-bottom: 2.25em !important; 
     /* Sección principal */
     main .vh-100 { height: 60vh !important; }
     main .display-3 { font-size: 2.5em !important; }
-    main .pt-5 { padding-top: 1.5em !important; } 
+    main .pt-5 { padding-top: 1em !important; } 
     main .mt-5 { margin-top: 1em !important; }     
     main .py-5 { padding-top: 1em!important; padding-bottom: 1em!important; }        
-    .txtVision p, .txtVersiculo p { font-size: 1.25em; }
+    .txtVision p, .txtVersiculo p { font-size: 1.25em; }    
     
     /* Menú de opciones */
     .row.mt-5 { margin-top: 1.5em !important; }
@@ -235,7 +234,7 @@ main .py-5 { padding-top: 2.25em !important; padding-bottom: 2.25em !important; 
     .col-sm-4 { padding-right: 0!important; }
     .col-sm-4 h4 { font-size: 0.75em !important; }
     .col-sm-4 .txtInfo, .barraInfo { font-size: 0.55em !important; }
-    .list-group-item { padding: 1em !important }        
+    .list-group-item { padding: 0.5em !important }        
 }
 
 /* Estilo para dispositivos con tamaño de pantalla mayor a 481px y menor que 575.98px */
@@ -248,10 +247,10 @@ main .py-5 { padding-top: 2.25em !important; padding-bottom: 2.25em !important; 
     /* Sección principal */
     main .vh-100 { height: 50vh !important; }
     main .display-3 { font-size: 2em !important; }
-    main .pt-5 { padding-top: 1.25em !important; } 
+    main .pt-5 { padding-top: 0.75em !important; } 
     main .mt-5 { margin-top: 0.75em !important; } 
     main .py-5 { padding-top: 0.75em!important; padding-bottom: 0.75em!important; }    
-    .txtVision p, .txtVersiculo p { font-size: 1em; }
+    .txtVision p, .txtVersiculo p { font-size: 1.25em; }   
     
     /* Menú de opciones */
     .row.mt-5 { margin-top: 1.25em !important; }
@@ -272,7 +271,7 @@ main .py-5 { padding-top: 2.25em !important; padding-bottom: 2.25em !important; 
     .col-4 { padding-right: 0 !important; }
     .col-4 h4 { font-size: 0.75em !important; }    
     .col-4 .txtInfo, .barraInfo { font-size: 0.5em !important; }
-    .list-group-item { padding: 1em !important }        
+    .list-group-item { padding: 0.5em !important }        
 }
 
 /* Estilo para dispositivos con tamaño de pantalla menor que 480px */
@@ -283,12 +282,12 @@ main .py-5 { padding-top: 2.25em !important; padding-bottom: 2.25em !important; 
     .encabezado .p-4 { padding: 0.75em !important; }
     
     /* Sección principal */
-    main .vh-100 { height: 27vh !important; }
-    main .display-3 { font-size: 2em !important; }
-    main .pt-5 { padding-top: 1em !important; }
+    main .vh-100 { height: 40vh !important; }
+    main .display-3 { font-size: 1.75em !important; }
+    main .pt-5 { padding-top: 0.5em !important; }
     main .mt-5 { margin-top: 0.5em !important; } 
     main .py-5 { padding-top: 0.5em !important; padding-bottom: 0.5em !important; }    
-    .txtVision p, .txtVersiculo p { font-size: 1em; }
+    .txtVision p, .txtVersiculo p { font-size: 1em; }    
     
     /* Menú de opciones */
     .row.mt-5 { margin-top: 1em !important; }
@@ -309,5 +308,5 @@ main .py-5 { padding-top: 2.25em !important; padding-bottom: 2.25em !important; 
     .col-4 { padding-right: 0 !important; }
     .col-4 h4 { font-size: 0.6em !important; }    
     .col-4 .txtInfo, .barraInfo { font-size: 0.35em !important; }
-    .list-group-item { padding: 1em !important; }
+    .list-group-item { padding: 0.5em !important; }
 }
