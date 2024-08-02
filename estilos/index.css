@@ -30,14 +30,15 @@ and open the template in the editor.
 /* Sección principal */
 main .vh-100 { height: 100vh !important; } 
 main .display-3 { font-family: 'Bree Serif', serif; font-size: 4.5em !important; } 
-main .pt-5 { padding-top: 3em !important; } 
-main .mt-5 { margin-top: 3em !important; }
-main .py-5 { padding-top: 3em !important; padding-bottom: 3em !important; }
+main .mx-4 { margin-left: 1.25em !important; }
+main .my-4 { margin-top: 1.25em !important; margin-bottom: 1.25em !important; }
+main .mb-5 { margin-bottom: 2.25em !important; }
 .txtVision p, .txtVersiculo p { font-family: 'Noto Serif', serif; font-size: 2.5em; line-height: 1.75em; }
 .bordes { border-top: 0.5em double var(--colorAzul); border-bottom: 0.5em double var(--colorAzul); }
 
 /* Menú de opciones */
 .row.mt-5 { margin-top: 3em !important; }
+.card { width: 18% !important; }
 .card-header { font-size: 3em !important; }
 .card-title { font-size: 1.5em !important; }
 .card-text { font-size: 1em !important; }
@@ -53,7 +54,7 @@ main .py-5 { padding-top: 3em !important; padding-bottom: 3em !important; }
 .flechaPrev, .flechaSig { font-size: 4em; }
 
 /* Efecto de onda */
-.wave { max-width: 100%; position: relative; top: -7em; }
+.wave { max-width: 100%; position: relative; top: -8.5em; }
 
 /* Pie de página */
 .col-sm-4 h4 { font-size: 1em !important; }
@@ -74,18 +75,22 @@ main .py-5 { padding-top: 3em !important; padding-bottom: 3em !important; }
     
     /* Sección principal */
     main .vh-100 { height: 100vh !important; }
-    main .display-3 { font-size: 3.5em!important; }
-    main .pt-5 { padding-top: 2.5em !important; } 
-    main .mt-5 { margin-top: 2em !important; }
-    main .py-5 { padding-top: 2em !important; padding-bottom: 2em !important; }       
+    main .display-3 { font-size: 3.5em !important; }
+    main .mx-4 { margin-left: 1.25em !important; }
+    main .my-4 { margin-top: 1.25em !important; margin-bottom: 1.25em !important; }
+    main .mb-5 { margin-bottom: 2em !important; }
     .txtVision p, .txtVersiculo p { font-size: 2.5em; }    
     
     /* Menú de opciones */
     .row.mt-5 { margin-top: 2.5em !important; }
+    .card { width: 18% !important; }
     .card-header { font-size: 3em !important; }
     .card-title { font-size: 1.5em !important; }
     .card-text { font-size: 1em !important; }
     .btn-lg { font-size: 1.25em !important; }
+    
+    /* Efecto de onda */
+    .wave { top: -8em; }   
     
     /* Pie de página */    
     footer .w-50 { width: 60% !important; }
@@ -105,17 +110,21 @@ main .py-5 { padding-top: 3em !important; padding-bottom: 3em !important; }
     /* Sección principal */
     main .vh-100 { height: 100vh !important; }
     main .display-3 { font-size: 3.5em!important; }
-    main .pt-5 { padding-top: 2.25em !important; } 
-    main .mt-5 { margin-top: 1.75em !important; }
-    main .py-5 { padding-top: 1.75em !important; padding-bottom: 1.75em !important; }
+    main .mx-4 { margin-left: 1em !important; }
+    main .my-4 { margin-top: 1em !important; margin-bottom: 1em !important; }
+    main .mb-5 { margin-bottom: 1.75em !important; }
     .txtVision p, .txtVersiculo p { font-size: 2.25em; }    
     
     /* Menú de opciones */
     .row.mt-5 { margin-top: 2.25em !important; }
+    .card { width: 30% !important; }
     .card-header { font-size: 3em !important; }
     .card-title { font-size: 1.5em !important; }
     .card-text { font-size: 1em !important; }
     .btn-lg { font-size: 1.25em !important; }
+    
+    /* Efecto de onda */
+    .wave { top: -7.5em; }   
     
     /* Pie de página */    
     footer .w-50 { width: 70% !important; }
@@ -135,16 +144,17 @@ main .py-5 { padding-top: 3em !important; padding-bottom: 3em !important; }
     /* Sección principal */      
     main .vh-100 { height: 80vh !important; }
     main .display-3 { font-size: 3em !important; }
-    main .pt-5 { padding-top: 2em !important; } 
-    main .mt-5 { margin-top: 1.5em !important; }
-    main .py-5 { padding-top: 1.5em!important; padding-bottom: 1.5em!important; }        
+    main .mx-4 { margin-left: 1em !important; }
+    main .my-4 { margin-top: 1em !important; margin-bottom: 1em !important; }
+    main .mb-5 { margin-bottom: 1.5em !important; }
     .txtVision p, .txtVersiculo p { font-size: 2em; }    
     
     /* Menú de opciones */
     .row.mt-5 { margin-top: 2em !important; }
+    .card { width: 45% !important; }
     .card-header { font-size: 3em !important; }
     .card-title { font-size: 1.5em !important; }
-    .card-text { font-size: 1em !important; }
+    .card-text { font-size: 0.85em !important; }
     .btn-lg { font-size: 1.25em !important; }
     
     /* Carrusel de imágenes */
@@ -152,7 +162,7 @@ main .py-5 { padding-top: 3em !important; padding-bottom: 3em !important; }
     .flechaPrev, .flechaSig { font-size: 3em; }  
     
     /* Efecto de onda */
-    .wave { top: -6.5em; }   
+    .wave { top: -6.75em; }   
     
     /* Pie de página */
     footer .w-50 { width: 75% !important; }
@@ -172,13 +182,14 @@ main .py-5 { padding-top: 3em !important; padding-bottom: 3em !important; }
     /* Sección principal */    
     main .vh-100 { height: 70vh !important; }
     main .display-3 { font-size: 2.75em !important; }
-    main .pt-5 { padding-top: 1.25em !important; } 
-    main .mt-5 { margin-top: 1.25em !important; }
-    main .py-5 { padding-top: 1.25em!important; padding-bottom: 1.25em!important; }        
+    main .mx-4 { margin-left: 0.75em !important; }
+    main .my-4 { margin-top: 0.75em !important; margin-bottom: 0.75em !important; }
+    main .mb-5 { margin-bottom: 1.25em !important; }
     .txtVision p, .txtVersiculo p { font-size: 1.75em; }    
     
     /* Menú de opciones */
     .row.mt-5 { margin-top: 1.75em !important; }
+    .card { width: 45% !important; }
     .card-header { font-size: 2.5em !important; }
     .card-title { font-size: 1.25em !important; }
     .card-text { font-size: 0.75em !important; }
@@ -210,12 +221,13 @@ main .py-5 { padding-top: 3em !important; padding-bottom: 3em !important; }
     /* Sección principal */
     main .vh-100 { height: 60vh !important; }
     main .display-3 { font-size: 2.5em !important; }
-    main .pt-5 { padding-top: 1em !important; } 
-    main .mt-5 { margin-top: 1em !important; }     
-    main .py-5 { padding-top: 1em!important; padding-bottom: 1em!important; }        
+    main .mx-4 { margin-left: 0.75em !important; }
+    main .my-4 { margin-top: 0.75em !important; margin-bottom: 0.75em !important; }
+    main .mb-5 { margin-bottom: 1em !important; }
     .txtVision p, .txtVersiculo p { font-size: 1.25em; }    
     
     /* Menú de opciones */
+    .card { width: 45% !important; }
     .row.mt-5 { margin-top: 1.5em !important; }
     .card-header { font-size: 2.5em !important; }
     .card-title { font-size: 1.25em !important; }
@@ -228,7 +240,7 @@ main .py-5 { padding-top: 3em !important; padding-bottom: 3em !important; }
     .flechaPrev, .flechaSig { font-size: 2em; }
     
     /* Efecto de onda */
-    .wave { top: -5em; }
+    .wave { top: -5.5em; }
     
     /* Pie de página */
     .col-sm-4 { padding-right: 0!important; }
@@ -247,13 +259,14 @@ main .py-5 { padding-top: 3em !important; padding-bottom: 3em !important; }
     /* Sección principal */
     main .vh-100 { height: 50vh !important; }
     main .display-3 { font-size: 2em !important; }
-    main .pt-5 { padding-top: 0.75em !important; } 
-    main .mt-5 { margin-top: 0.75em !important; } 
-    main .py-5 { padding-top: 0.75em!important; padding-bottom: 0.75em!important; }    
+    main .mx-4 { margin-left: 0.5em !important; }
+    main .my-4 { margin-top: 0.5em !important; margin-bottom: 0.5em !important; }
+    main .mb-5 { margin-bottom: 0.75em !important; }
     .txtVision p, .txtVersiculo p { font-size: 1.25em; }   
     
     /* Menú de opciones */
     .row.mt-5 { margin-top: 1.25em !important; }
+    .card { width: 80% !important; }
     .card-header { font-size: 2.5em !important; }
     .card-title { font-size: 1.25em !important; }
     .card-text { font-size: 0.75em !important; }
@@ -284,13 +297,14 @@ main .py-5 { padding-top: 3em !important; padding-bottom: 3em !important; }
     /* Sección principal */
     main .vh-100 { height: 45vh !important; }
     main .display-3 { font-size: 1.75em !important; }
-    main .pt-5 { padding-top: 0.5em !important; }
-    main .mt-5 { margin-top: 0.5em !important; } 
-    main .py-5 { padding-top: 0.5em !important; padding-bottom: 0.5em !important; }    
+    main .mx-4 { margin-left: 0.5em !important; }
+    main .my-4 { margin-top: 0.5em !important; margin-bottom: 0.5em !important; }
+    main .mb-5 { margin-bottom: 0.5em !important; }
     .txtVision p, .txtVersiculo p { font-size: 1em; }    
     
     /* Menú de opciones */
-    .row.mt-5 { margin-top: 1em !important; }
+    .row.my-5 { margin-top: 1em !important; margin-bottom: 1em !important; }
+    .card { width: 90% !important; }
     .card-header { font-size: 2.5em !important; }
     .card-title { font-size: 1.25em !important; }
     .card-text { font-size: 0.75em !important; }
